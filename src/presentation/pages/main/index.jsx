@@ -2,6 +2,7 @@ import React from 'react'
 
 // Style import
 import './style.scss'
+import { Outlet } from 'react-router-dom'
 
 // layouts page
 import Footer from './layouts/footer'
@@ -15,7 +16,7 @@ const MainPage = () => {
         <div className='main-container container'>
             <Navbar/>
             <div className="main-content main-test">
-                Test
+                <Outlet/>
             </div>
             <Footer/>
         </div>

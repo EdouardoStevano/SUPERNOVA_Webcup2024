@@ -1,0 +1,106 @@
+.instruciton-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background: red;
+    gap : 50px;
+    margin: 5% 0;
+    padding: 4.6% 4%;
+    width: 100%;
+    // height: 80vh;
+    .image-insctruct-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap : 20px;
+        width: 48%;
+        height: 340px;
+        .image-up{
+            display: flex;
+            align-items: end;
+            gap : 12px;
+            img{
+                &:nth-child(1){
+                    width: 70%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+                &:nth-child(2){
+                    width: 30%;
+                    height: 40%;
+                    object-fit: contain;
+                }
+            }
+            
+        }
+        .image-down{
+            display: flex;
+            gap : 12px;
+            img{
+                &:nth-child(2){
+                    width: 70%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+                &:nth-child(1){
+                    width: 30%;
+                    height: 20%;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+
+    .info-instruct-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap : 20px;
+        width: 52%;
+        height: 100%;
+        .title{
+            p{
+                color : var(--darkFontColor)
+            }
+            h1{
+                color : var(--darkFontColor);
+            }
+        }
+        .description{
+            p{
+                color : var(--darkFontColor);
+            }
+        }
+        .btn-contain{
+            button{
+                padding: 8px 24px;
+                clip-path: polygon(0 0, 100% 0, 100% 79%, 87% 100%, 0 100%, 0% 50%);
+                border: 1px solid var(--primaryColor);
+                background: var(--primaryColor);
+                color : var(--darkFontColor);
+                font-weight: bold;
+                outline: none;
+                cursor: pointer;
+                transition: .4s;
+                &:hover{
+                    transform: scale(1.05);
+                    box-shadow : 0 5px 12px rgb(0, 4, 255);
+                }
+            }
+        }
+    }
+}
+
+@media ( max-width : 750px){
+    .instruciton-container{
+        flex-direction: column;
+        gap : 50px;
+        height: auto;
+        overflow: hidden;
+        // background: green;
+    }
+    .image-insctruct-container, .info-instruct-container{
+        width : 100%
+    }
+    
+}
