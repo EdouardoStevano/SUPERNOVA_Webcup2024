@@ -12,6 +12,7 @@ import cancelIcon from 'presentation/assets/icons/png/icons8_cancel_60px.png';
 import loadIcon from 'presentation/assets/icons/png/icons8_stream_60px.png';
 import showeye from 'presentation/assets/icons/svg/showEye.svg';
 import hideeye from 'presentation/assets/icons/svg/hideEye.svg';
+import SignInImage from 'presentation/assets/image/branding/SignIn2.webp';
 
 // Import du JSON des agents
 import { UserAgent } from 'data/datasource/faker/userAgent';
@@ -211,6 +212,10 @@ const SignIn = () => {
                         Créer un compte
                     </Link>
                 </div>
+            </div>
+
+            <div className="signIn-right">
+                <img src={SignInImage} alt={"SignUp Illustration"} width={'500px'} />
             </div>
         </div>
     );

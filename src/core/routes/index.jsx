@@ -53,7 +53,7 @@ function RoutesConfig() {
 
 				{/* Notification initialization */}
 				<ToastContainer
-					position="bottom-right"
+					position="top-right"
 					theme={isDarkMode ? 'dark' : 'light'}
 					autoClose={5000}
 					pauseOnHover={true}

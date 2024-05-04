@@ -13,17 +13,19 @@ import Sidebar from './layout/sidebar'
 */
 const DashboardPage = () => {
     return (
-        <div className='dashboard-container container'>
-            <div className="dash-sidebar-container">
-                <Sidebar/>
-            </div>
-
-            <div className="dashboard-content">
-                <div className="dashboard-top">
-                    <Topbar/>
+        <div className="dashboard-main">
+            <div className='dashboard-container container'>
+                <div className="dash-sidebar-container">
+                    <Sidebar/>
                 </div>
 
-                <Outlet/>
+                <div className="dashboard-content">
+                    <div className="dashboard-top">
+                        <Topbar/>
+                    </div>
+
+                    <Outlet/>
+                </div>
             </div>
         </div>
     )

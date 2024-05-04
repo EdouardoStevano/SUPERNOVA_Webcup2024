@@ -1,7 +1,15 @@
+.dashboard-main{
+    height: 100vh;
+    background-image: url('../../../presentation/assets/image/branding/background/Background_glass3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .dashboard-container{
     background-color: var(--backgroundColor);
     height: 100vh;
     display: flex;
+    background-image: url('../../../presentation/assets/image/branding/background/BackgroundCard_white.png');
 }
 
 .dash-sidebar-container{
