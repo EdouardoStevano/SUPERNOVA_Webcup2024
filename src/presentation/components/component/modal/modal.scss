@@ -5,7 +5,7 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5); /* Arrière-plan semi-transparent */
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@
 
     background-color: var(--fillInput);
     padding: 20px 40px;
-    width: 40%;
+    width: 60%;
     max-height: 90vh;
     overflow-y: auto;
     border-radius: 20px;

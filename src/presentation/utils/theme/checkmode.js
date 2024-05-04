@@ -1,6 +1,6 @@
 export const checkmode = () => {
     if (localStorage.getItem('supermode') === null) {
-        localStorage.setItem('supermode', "false");
+        localStorage.setItem('supermode', "true");
     }
 
     if (localStorage.getItem('supermode') === "true") {

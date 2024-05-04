@@ -1,0 +1,26 @@
+.futuristic-component {
+    // background-color: #1e1e1e;
+    color: #fff;
+    width: auto;
+    background-image: url('../../../../assets/image/panels/button_Panel.png');
+    background-size: cover;
+    width: 180px;
+    height: 60px;
+    font-size: 15px;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .futuristic-component:hover {
+    background-color: var(--primaryColor);
+    box-shadow: 0 0 20px var(--primaryColor);
+  }
+  
+  .futuristic-component:active {
+    transform: translateY(2px);
+  }
+  
+  

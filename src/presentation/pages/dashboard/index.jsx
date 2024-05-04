@@ -1,4 +1,5 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 
 // Style import
 import './style.scss'
@@ -6,7 +7,6 @@ import './style.scss'
 // layouts page
 import Topbar from './layout/topbar'
 import Sidebar from './layout/sidebar'
-import { Outlet } from 'react-router-dom'
 
 /*
 * @desc: Dashboard Page

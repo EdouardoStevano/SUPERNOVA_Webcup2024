@@ -10,7 +10,7 @@ import passwordIcon from 'presentation/assets/icons/png/icons8_good_pincode_60px
 import doneIcon from 'presentation/assets/icons/png/icons8_ok_60px.png'
 import cancelIcon from 'presentation/assets/icons/png/icons8_cancel_60px.png'
 import loadIcon from 'presentation/assets/icons/png/icons8_stream_60px.png'
-// import SignUpImage from 'presentation/assets/branding/SignUp_Image.png'
+import SignUpImage from 'presentation/assets/image/branding/SignUp_Image.webp'
 
 function SignUp() {
     const [inputText, setInputText] = useState('');
@@ -51,7 +51,7 @@ function SignUp() {
     return (
         <div className='SignUp2 MiddleContent'>
         <div className="signIn-right">
-            {/* <img src={SignUpImage} alt={"SignUp Illustration"} width={'500px'}/> */}
+            <img src={SignUpImage} alt={"SignUp Illustration"} width={'500px'}/>
         </div>
 
         <div className="signIn-left">

@@ -21,19 +21,11 @@
 }
 
 .signIn-left h1{
-    font-size: 30px;
-    font-weight: 900;
+    font-size: 25px;
+    font-weight: 400;
     margin-bottom: 10px;
+    font-family: "Zen Dots", sans-serif;
     animation: swipeFadeDown 0.5s cubic-bezier(0, 0.01, 0, 1.02);
-
-    // span{
-    //     font-size: 45px;
-    //     font-weight: 900;
-    //     background-image: var(--linearColor2);
-    //     -webkit-background-clip: text;
-    //     background-clip: text;
-    //     color: transparent;
-    // }
 }
 
 .signIn-left span{
@@ -58,6 +50,14 @@
 
 .signForm{
     animation: swipeFadeDown 2s cubic-bezier(0, 0.01, 0, 1.02);
+}
+
+.error-message{
+    background-color: var(--dangerColor);
+    color: #fff;
+    width: 80%;
+    border-radius: 20px;
+    padding: 5px 12px;
 }
 
 .btn-signForm{
@@ -98,7 +98,7 @@
 }
 
 .btn-group button, .btn-group .btn-login, .btn-group .btn-signUp{
-    border-radius: 30px;
+    border-radius: 10px;
     border: 1px solid transparent;
     padding: 8px 24px;
     font-size: 13px;

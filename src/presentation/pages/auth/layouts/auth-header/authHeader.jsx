@@ -5,13 +5,14 @@ import { Link } from 'react-router-dom'
 import './authHeader.scss'
 
 // assets importation
-// import siriusLogo from '../../../assets/image/logo/LogoSirius.png'
+import Logo from 'presentation/assets/image/spyctre/Logo192.png'
 
 function authHeader() {
   return (
     <div className='authHeader-container'>
-        {/* <img src={siriusLogo} alt="Sirius Logo" /> */}
+        {/* <img src={Logo} alt="Spyctre Logo" /> */}
         <Link to={'/'} className='authBack-btn'>retour</Link>
+        <Link to={'/'} className='authBack-btn'>Par reconnaissance faciale</Link>
     </div>
   )
 }

@@ -17,7 +17,7 @@ const AuthPage = () => {
         <div className='auth-container container'>
             <div className="auth-content">
             <AuthHeader />
-            <Outlet />
+                <Outlet />
             <AuthFooter />
         </div>
         </div>

@@ -13,7 +13,7 @@
     --backgroundColor: #F9F9F9;
 
     /* Transparent color */
-    --whiteColorTransparent: rgba(255, 255, 255, 0.7);
+    --whiteColorTransparent: rgba(255, 255, 255, 0.02);
     --darkColorTransparent: rgba(0, 0, 0, 0.08);
     --scrollColor: rgba(0, 0, 0, 0.3);
 
@@ -36,6 +36,7 @@
     /* linear color */
     --linearColor1: linear-gradient(to right, #00AEEF 0%, #d85dc1 80%); 
     --linearColor2: linear-gradient(to right, #d85dc1 10%, #7289DA 100%);
+    --linearColor3: linear-gradient(to right top, #111111, #211c29, #35253e, #4f2c52, #6d3162);
     --transitionColor: linear-gradient(180deg, rgba(247, 247, 247,0) 0%, rgba(247, 247, 247,1) 100%);
 
     /* Supplement color */
@@ -57,7 +58,7 @@
     --greyColor: #191919;
 
     /* Background color*/
-    --backgroundColor: #191919;
+    --backgroundColor: #111111;
 
     /* Transparent color */
     --whiteColorTransparent: rgba(255, 255, 255, 0.7);

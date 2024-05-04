@@ -72,9 +72,9 @@ function RoutesConfig() {
 					<Main />
 					<Auth />
 					<Redirect />
+					<Dashboard />
 				</Suspense>
 
-				<Dashboard />
 
 			</BrowserRouter>
 		</QueryClientProvider>
