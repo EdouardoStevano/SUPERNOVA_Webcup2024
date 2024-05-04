@@ -3,6 +3,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 10;
+    animation: swipeFadeDown 2s ease;
 }
 
 .headbar-content svg{
@@ -68,6 +70,10 @@
     margin-right: 5px;
     background-color: var(--darkFontColor);
     border-radius: 20px;
+}
+
+.logo-response{
+    display: none;
 }
 
 .headbar-content .separator2{
@@ -145,4 +151,14 @@
 .headbar-content .usercard .userInfo .role{
     font-size: 12px;
     opacity: 0.7;
+}
+
+@media screen and (max-width: 770px){
+    .searchBar{
+        display: none;
+    }
+
+    .logo-response{
+        display: flex;
+    }
 }

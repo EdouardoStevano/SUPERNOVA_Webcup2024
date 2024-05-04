@@ -24,7 +24,10 @@ const DashboardPage = () => {
                         <Topbar/>
                     </div>
 
-                    <Outlet/>
+                    <div className="dashboard-outlet">
+                        <Outlet/>
+                    </div>
+
                 </div>
             </div>
         </div>

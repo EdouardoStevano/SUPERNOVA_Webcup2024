@@ -1,9 +1,15 @@
 import React from 'react';
 
+// style import
+import './style.scss'
+
 const Loader = () => {
     return (
-        <div>
-			<p>Loader</p>
+        <div className='footer-container'>
+			<div class="box">
+                <div class="loader8"></div>
+                <p>loader 8</p>
+            </div>
 		</div>
     )
 }

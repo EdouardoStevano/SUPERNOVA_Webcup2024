@@ -94,7 +94,7 @@ const SignIn = () => {
             const agent = UserAgent.find(agent => agent.code_agent === codeAgent && agent.password === password);
             if (agent) {
                 const userInformation = JSON.stringify(agent);
-                localStorage.setItem('userInformation', userInformation);
+                localStorage.setItem('config', userInformation);
                 if (rememberMe) {
                     localStorage.setItem('codeAgent', codeAgent);
                 }
