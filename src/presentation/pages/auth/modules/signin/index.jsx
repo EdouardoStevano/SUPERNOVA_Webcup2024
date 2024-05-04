@@ -90,11 +90,13 @@ const SignIn = () => {
         setErrorMessages(errors);
 
         if (isValid) {
+            
             // Vérification si le code de l'agent est valide
             const agent = UserAgent.find(agent => agent.code_agent === codeAgent && agent.password === password);
             if (agent) {
                 const userInformation = JSON.stringify(agent);
                 localStorage.setItem('config', userInformation);
+                localStorage.setItem('newconnect', true);
                 if (rememberMe) {
                     localStorage.setItem('codeAgent', codeAgent);
                 }

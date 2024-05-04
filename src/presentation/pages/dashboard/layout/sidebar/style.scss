@@ -28,18 +28,18 @@
     color: var(--darkFontColor);
 }
 
-.sidebar-content .menu {
+.sidebar-content .menu-sidebar {
     margin-top: 50px;
 }
 
-.sidebar-content .menu h5{
+.sidebar-content .menu-sidebar h5{
     color: var(--darkFontColor);
     font-weight: 700;
     margin-bottom: 10px;
     margin-top: 15px;     
 }
 
-.sidebar-content .menu .menu-btn{
+.sidebar-content .menu-sidebar .menu-btn{
     padding: 10px 20px;
     width: 100%;
     border-radius: 10px;
@@ -57,7 +57,7 @@
     }
 }
 
-.sidebar-content .menu .menu-btn span{
+.sidebar-content .menu-sidebar .menu-btn span{
     margin-left: 12px;
     font-weight: 600;
     opacity: 0.6;
@@ -139,7 +139,7 @@
     }
 }
 
-.sidebar-content .menu .menu-btn.active, .sidebar-content .menu .menu-btn:hover{
+.sidebar-content .menu-sidebar .menu-btn.active, .sidebar-content .menu-sidebar .menu-btn:hover{
     padding: 10px 20px;
     background-color: var(--primaryColor);
     width: 100%;
@@ -156,7 +156,7 @@
     }
 }
 
-.sidebar-content .menu .menu-btn:hover span, .sidebar-content .menu .menu-btn.active span{
+.sidebar-content .menu-sidebar .menu-btn:hover span, .sidebar-content .menu-sidebar .menu-btn.active span{
     opacity: 1;
 }
 
@@ -171,7 +171,7 @@
     }
 
     
-    .sidebar-content .menu .menu-btn.active, .sidebar-content .menu .menu-btn:hover{
+    .sidebar-content .menu-sidebar .menu-btn.active, .sidebar-content .menu-sidebar .menu-btn:hover{
         padding: 10px 10px;
         background-color: var(--primaryColor);
         width: 100%;
@@ -200,7 +200,7 @@
             display: none;
         }
 
-        .menu{
+        .menu-sidebar{
             display: flex;
             flex-direction: row;
             justify-content: space-around;

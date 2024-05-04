@@ -2,9 +2,16 @@ import React, { useEffect, useRef, useState } from 'react';
 import './style.scss';
 import Logo from '../../../../assets/image/spyctre/Logo192.png';
 
+import { searchLink } from 'data/datasource/faker/searchLink'; 
+import { Link } from 'react-router-dom';
+
 const Topbar = () => {
     const inputRef = useRef(null);
     const [userInfo, setUserInfo] = useState(null);
+    const [searchQuery, setSearchQuery] = useState('');
+    const [searchResults, setSearchResults] = useState([0]);
+    const [showDropdown, setShowDropdown] = useState(false); // Ajout de l'état pour contrôler l'affichage du dropdown
+
 
     useEffect(() => {
         const storedUserInfo = localStorage.getItem('config');
@@ -31,6 +38,20 @@ const Topbar = () => {
         // Ajoutez votre logique pour ouvrir le code QR ici
     };
 
+    useEffect(() => {
+        // Si la longueur de la requête de recherche est supérieure à 0, afficher le dropdown
+        setShowDropdown(searchQuery.length > 0);
+        
+        const filteredResults = searchLink.filter(link =>
+            link.title.toLowerCase().includes(searchQuery.toLowerCase())
+        );
+        setSearchResults(filteredResults);
+    }, [searchQuery]);
+
+    const handleInputChange = (event) => {
+        setSearchQuery(event.target.value);
+    };
+
     return (
         <div className="headbar-content">
             <img src={Logo} alt="App Logo" width="50px" className='logo-response' />
@@ -39,7 +60,13 @@ const Topbar = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
                         <path fillRule="evenodd" d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z" clipRule="evenodd" />
                     </svg>
-                    <input ref={inputRef} type="text" placeholder="Tapez / pour recherche ..." />
+                    <input
+                        ref={inputRef}
+                        type="text"
+                        placeholder="Tapez / pour recherche ..."
+                        value={searchQuery}
+                        onChange={handleInputChange}
+                        />
                     <div className="shorcut-indication">/</div>
                     <div className="separator"></div>
                     <div className="searchImage">
@@ -50,6 +77,20 @@ const Topbar = () => {
                         <span>par image</span>
                     </div>
                 </div>
+
+                {showDropdown && searchResults.length > 0 && (
+                    <ul className="suggestions">
+                        {searchResults.map((result, index) => (
+                                <Link to={result.link} key={index} className="suggestion">
+                                    <div className="suggestion-content">
+                                        <h3 className="suggestion-title">{result.title}</h3>
+                                        <small className="suggestion-description">{result.description}</small>
+                                    </div>
+                                </Link>
+
+                        ))}
+                    </ul>
+                )}
             </div>
             <div className="headIcon">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 right-icon">

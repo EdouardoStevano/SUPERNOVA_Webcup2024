@@ -35,6 +35,51 @@
     align-items: center;
 }
 
+.searchBar {
+    position: relative; // Assurez-vous que le conteneur de la barre de recherche est positionné de façon relative pour positionner le dropdown correctement
+  }
+  
+  .suggestions {
+    position: absolute;
+    top: calc(100% + 5px); // Positionnez le dropdown juste en dessous de la barre de recherche
+    left: 0;
+    width: 100%;
+    background-color: var(--fillInput);
+    border-radius: 10px;
+    color: var(--darkFontColor);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 8px 0;
+    z-index: 999; // Assurez-vous que le dropdown est au-dessus de tout le reste
+    max-height: 200px; // Limitez la hauteur du dropdown pour le faire défiler si nécessaire
+    overflow-y: auto; // Ajoutez une barre de défilement si le contenu dépasse la hauteur maximale
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    .suggestion{
+        color: var(--darkFontColor);
+
+        .suggestion-content{
+            padding: 10px 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+
+            &:hover{
+                background-color: var(--primaryColor);
+            }
+        }
+    }
+  }
+  
+  .suggestions li {
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .suggestions li:hover {
+    background-color: var(--primaryColor);
+  }
+
 .searchBar .search-content{
     background-color: var(--fillInput);
     padding: 7px;

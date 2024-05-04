@@ -3,6 +3,8 @@ const Speak = (texte) => {
     const message = new SpeechSynthesisUtterance();
     // Définir le texte à lire
     message.text = texte;
+    // Définir la vitesse de lecture
+    message.rate = 1; // 1 correspond à la vitesse normale, vous pouvez ajuster si nécessaire
 
     window.speechSynthesis.speak(message);
   } else {
