@@ -1,0 +1,78 @@
+/*======================
+    404 page
+=======================*/
+
+
+.page_404 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px 0;
+    color: var(--darkFontColor);
+    background: var(--whiteColor);
+    font-family: 'DM Sans', sans-serif;
+}
+
+.page_404 img {
+    width: 100%;
+}
+
+.four_zero_four_bg {
+
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-position: center;
+}
+
+
+.four_zero_four_bg h1 {
+    font-size: 140px;
+    background-image: var(--linearColor1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    text-align: center;
+}
+
+.four_zero_four_bg h3 {
+    font-size: 80px;
+}
+
+.link_404 {
+    color: #fff !important;
+    padding: 10px 20px;
+    background: var(--primaryColor);
+    margin: 20px 0;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.content_box_404 {
+    margin-top: -50px;
+}
+
+@media screen and (max-width: 370px){
+    .content_box_404 {
+        margin-top: 0px;
+        padding: 0px 40px;
+    }
+}
+
+@media screen and (max-width: 330px){
+
+    .four_zero_four_bg h1 {
+        font-size: 80px;
+    }
+
+    .four_zero_four_bg {
+
+        background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+        background-repeat: no-repeat;
+        height: 70vh;
+        background-position: center;
+    }
+    
+}

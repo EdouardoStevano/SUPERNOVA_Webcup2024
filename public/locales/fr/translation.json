@@ -1,0 +1,53 @@
+{
+  "main": {
+    "home": "Accueil",
+    "about": "À propos",
+    "solution": "Solutions",
+    "contact": "Contact",
+    "signIn": "Se connecter",
+    "signUp": "Inscription",
+    "mode": "Mode sombre",
+    "language": "Langue",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "forum": "Forum",
+    "support": "Support",
+    "feedback": "Retour",
+    "download": "Téléchargement",
+    "upload": "Téléverser",
+    "account": "Compte",
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "notifications": "Notifications",
+    "logout": "Déconnexion",
+    "dashboard": "Tableau de bord"
+  },
+
+  "footer": {
+    "shortcut": "Raccourcis",
+    "legal": "Légalisation",
+    "credits": "Crédits",
+    "partner": "Partenaire",
+    "termUse": "Conditions générales d'utilisation",
+    "privacy": "Confidentialité",
+    "search": "Recherche",
+    "subscribe": "S'abonner",
+    "newsletter": "Bulletin d'information"
+  },
+
+  "dashboard": {
+    "welcome": "Bienvenue",
+    "notifications": "Notifications",
+    "inbox": "Boîte de réception",
+    "overview": "Aperçu",
+    "statistics": "Statistiques",
+    "reports": "Rapports",
+    "tasks": "Tâches",
+    "calendar": "Calendrier",
+    "messages": "Messages",
+    "alerts": "Alertes",
+    "settings": "Paramètres",
+    "help": "Aide",
+    "logout": "Déconnexion"
+  }
+}

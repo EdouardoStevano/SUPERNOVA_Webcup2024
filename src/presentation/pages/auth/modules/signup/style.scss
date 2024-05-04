@@ -1,0 +1,104 @@
+.SignUp2 .signIn-left{
+    z-index: 10;
+    width: 45%;
+    overflow: auto;
+    color: var(--darkFontColor);
+}
+
+.SignUp2 .signIn-right{
+    z-index: 3;
+    width: 55%;
+    display: flex;
+    align-items: center;;
+    animation: zoom 1.5s cubic-bezier(0, 0.01, 0, 1.02);
+}
+
+.SignUp2 .signIn-right .splineScene{
+    width: 100%;
+    z-index: 2;
+}
+
+.SignUp2 .signIn-left h1{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    animation: swipeFadeDown 0.5s cubic-bezier(0, 0.01, 0, 1.02);
+}
+
+.SignUp2 .signIn-left span{
+    font-size: 12px;
+    color: #fff;
+    font-weight: 400;
+    animation: swipeFadeDown 0.7s cubic-bezier(0, 0.01, 0, 1.02);
+    font-family: Poppins;
+    border-radius: 20px;
+    background: var(--color4);
+    padding: 2px 10px;
+}
+
+.SignUp2 .signIn-left p{
+    animation: swipeFadeDown 1s cubic-bezier(0, 0.01, 0, 1.02);
+    font-size: 15px;
+    font-weight: 400;
+    opacity: .7;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 25px;
+    selection: #333;
+}
+
+.SignUp2 .signForm{
+    animation: swipeFadeDown 2s cubic-bezier(0, 0.01, 0, 1.02);
+}
+
+.SignUp2 .btn-signForm{
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    animation: swipeFadeDown 2s cubic-bezier(0, 0.01, 0, 1.02);
+    width: 100%;
+    justify-content: space-between;
+}
+
+.btn-signForm label{
+    margin-left: 5px;
+}
+
+.remreber-check, .passForget{
+    cursor: pointer; 
+    transition: .3s ease;
+    opacity: .7;
+}
+
+.remreber-check:hover, .passForget:hover{
+    
+}
+
+.SignUp2 .btn-group{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    animation: swipeFadeDown 2s cubic-bezier(0, 0.01, 0, 1.02);
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 770px){
+    .SignUp2 .signIn-left{
+        width: 100%;
+    }
+    
+    .SignUp2 .signIn-right{
+        display: none;
+    }
+
+    .btn-signForm{
+        width: 100%;
+    }
+
+    .btn-group{
+        width: 100%;
+    }
+}
