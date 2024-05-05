@@ -1,0 +1,119 @@
+.inventory-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    .info-inventor{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        gap : 30px;
+        // background: red;
+        overflow: hidden;
+        .webgl{
+            width: 100%;
+            height: 55%;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        .info-gun{
+            width: 100%;
+            height: 45%;
+            background : var(--fillInput);
+            border-top:  2px solid var(--darkFontColor);
+            .title{
+                h1{
+                    font-size: 1.2em;
+                    text-align: center;
+                }
+            }
+            .caracteristique{
+                display: flex;
+                flex-direction: column;
+                padding: 14px 16px;
+                height: 100%;
+                background: var(--fillInput);
+                gap: 10px;
+                .content-caracter{
+                    display: flex;
+                    // justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 20px;
+                    border-radius: 50px;
+                    background:var(--darkColorTransparent);
+                }
+                .skill-name{
+                    font-size: .8em;
+                    color : #fff;
+                }
+            }
+        }
+    }
+    .gun-container{
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        height: 100%;
+        // background: yellow;
+        .categorie-container{
+            display: flex;
+            justify-content: center;
+            padding : 5px 2.4%;
+            height: 60px;
+            width: 100%;
+            // gap : 6px;
+            border-radius: 20px;
+            overflow: hidden;
+            .categorie{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 4px 0;
+                gap : 5px;
+                padding : 8px 6px;
+                height: 100%;
+                width: 60px;
+                background: #fff;
+                cursor: pointer;
+                img, svg{
+                    height: 100%;
+                    object-fit: contain;
+                }
+                p{
+                    font-weight: bold;
+                    text-align: center;
+                }
+            }
+            .categorie.active{
+                background: var(--secondaryColor);
+            }
+        }
+        .gun-list{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            overflow: auto;
+            padding : 15px 6px;
+            gap : 8px;
+            height: 100%;
+            background: var(--darkColorTransparent);
+
+            .gun{
+                width : 70px;
+                height: 70px;
+                border-radius: 5px;
+                background: var(--whiteColorTransparent);
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
