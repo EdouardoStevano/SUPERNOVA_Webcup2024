@@ -1,0 +1,103 @@
+.dash-contact-container{
+    height: 100%;
+    padding: 20px;
+
+    .dash-contact-top{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    
+.filter {
+    display: flex;
+    align-items: center;
+    color: var(--darkFontColor);
+    margin-bottom: 20px;
+  }
+  
+  .filter select {
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: var(--primaryColor);
+    border: none;
+    padding: 5px;
+  }
+  
+  .dash-contact-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
+  .card-contact {
+    border: solid 1px rgba(245,247,250,0.03);
+    background-image: linear-gradient(101deg,rgba(245,247,250,.02),rgba(245,247,250,.06) 12%,rgba(245,247,250,0));
+    backdrop-filter: blur(2px);
+    background-color: var(--fillInput);
+    padding: 20px;
+    // width: 300px;
+    color: var(--darkFontColor);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+    .btn-contact-group{
+        font-size: 12px;
+
+        a{
+            color:var(--backgroundColor);
+            background-color: var(--succesColor);
+            padding: 3px 15px;
+            border-radius: 10px;
+            margin-right: 10px;
+            transition: 0.3s ease;
+
+            &:hover{
+                background-color: var(--primaryColor);
+                color: var(--darkFontColor);
+            }
+
+        }
+        
+        button{
+            padding: 3px 15px;
+            background-color: var(--dangerColor);
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s ease;
+
+            &:hover{
+                background-color: var(--primaryColor);
+                color: var(--darkFontColor);
+            }
+        }
+    }
+
+    .confiance{
+        padding: 3px 15px;
+        background-color: var(--backgroundColor);
+        border-radius: 10px;
+    }
+  }
+  
+  .card-contact p {
+    margin: 5px 0;
+  }
+  
+  .add-contact {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-contact:hover {
+    background-color: #0056b3;
+  }
+}
+
+

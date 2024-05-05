@@ -1,5 +1,6 @@
 /* Footer.css */
 .footer {
+    position: relative;
     background-color: var(--fillInput);
     color: var(--darkFontColor);
     padding: 50px 0px 20px 50px;
@@ -80,3 +81,9 @@
     color: var(--primaryColor);
   }
   
+
+  @media (max-width : 750px){
+    .footer{
+      margin-top: 500px;
+    }
+  }

@@ -21,6 +21,9 @@ const DashboardPage = () => {
         // Vérifier si 'newconnect' est défini sur true dans le stockage local
         const isNewConnect = localStorage.getItem('newconnect') === 'true';
         if (isNewConnect) {
+            // Speak(
+            //     "Bienvenue sur notre plateforme ! Je m'appelle Nebulah, Si vous avez des questions ou besoin d'aide, n'hésitez pas à me les demander. Je suis  là pour vous aider à chaque étape de votre missions."
+            // );        
             // Si 'newconnect' est true, afficher le modal
             setShowModal(true);
         }
@@ -32,10 +35,7 @@ const DashboardPage = () => {
         }
     }, []);
 
-    Speak(
-        "Bienvenue sur notre plateforme ! Je m'appelle Nebulah, Si vous avez des questions ou besoin d'aide, n'hésitez pas à me les demander. Je suis  là pour vous aider à chaque étape de votre missions."
-    );
-
+ 
     const closeModal = () => {
         // Fermer le modal et définir 'newconnect' à false dans le stockage local
         setShowModal(false);
