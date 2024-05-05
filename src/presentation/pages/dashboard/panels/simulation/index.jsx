@@ -41,7 +41,7 @@ const Simulation = () => {
             <input type="text" id="missionName" name="missionName" value={formData.missionName} onChange={handleChange} required/>
           </div>
           <div className="form-group">
-            <label htmlFor="targetName">Nom de la cible:</label>
+            <label htmlFor="targetName">Nombres de cibles:</label>
             <input type="number" id="targetName" name="targetName" value={formData.targetName} onChange={handleChange} required/>
           </div>
           <div className="form-group">

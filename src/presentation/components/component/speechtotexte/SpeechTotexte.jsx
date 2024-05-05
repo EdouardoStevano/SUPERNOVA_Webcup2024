@@ -39,16 +39,16 @@ const SpeechTotexte = () => {
           if (speechResult.toLowerCase().includes("salut.")) {
             isrecording(false);
             stopRecording();
-            speak("salut comment ça vas");
-          } else if (speechResult.toLowerCase().includes("météo.")) {
+            speak("salut Agent, comment ça vas");
+          } else if (speechResult.toLowerCase().includes("Missions.")) {
             isrecording(false);
             stopRecording();
-            speak("vous voulez le meteo d'aujourd'huis");
+            speak("Plongez dans l'univers intrigant des missions d'agent double avec notre site web. Notre plateforme offre une variété de missions captivantes, où vous aurez l'occasion de jouer un rôle crucial dans des opérations clandestines et des intrigues complexes. En tant qu'agent double, vous naviguerez entre les alliances, jonglerez avec les secrets et prendrez des décisions qui pourraient changer le cours de l'histoire.");
           } else if (speechResult.toLowerCase().includes("aide.")) {
             isrecording(false);
             stopRecording();
             speak(
-              "Notre plateforme s'engage à simplifier votre exploration urbaine en vous offrant une assistance inégalée. Grâce à notre technologie innovante, vous pouvez naviguer dans la ville avec facilité, découvrant chaque coin et recoin sans tracas. Parcourez la ville en toute confiance, guidé par notre engagement envers votre expérience sans souci"
+              "Être un agent double peut être une tâche complexe et pleine de défis, mais avec les bonnes compétences et stratégies, vous pouvez naviguer avec succès dans ce monde d'intrigues et de mystères. "
             );
           }
         } else if (speechResult.toLowerCase().includes("carte.")) {

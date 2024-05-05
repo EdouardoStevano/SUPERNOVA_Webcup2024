@@ -1,0 +1,1478 @@
+[
+    {
+        "place_id": 1,
+        "country_name": "Madagascar",
+        "place_name": "Diana",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Exploration des grottes",
+                "mission_description": "Explorer des grottes inexplorées pour découvrir de nouvelles espèces cavernicoles.",
+                "mission_status": "En cours",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Observation des oiseaux",
+                "mission_description": "Observer et étudier les populations d'oiseaux migrateurs dans la région.",
+                "mission_status": "Terminé",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Conservation des tortues marines",
+                "mission_description": "Protéger les sites de nidification des tortues marines menacées.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            }
+        ]
+    },
+    {
+        "place_id": 2,
+        "country_name": "Madagascar",
+        "place_name": "Sava",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Exploration des forêts",
+                "mission_description": "Explorer les forêts de la région pour étudier la biodiversité.",
+                "mission_status": "En cours",
+                "level": 65,
+                "success_rate": 40,
+                "reward": 60,
+                "stars": 4
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Cartographie des rivières",
+                "mission_description": "Cartographier les rivières de la région pour évaluer leur état et les besoins en conservation.",
+                "mission_status": "Disponible",
+                "level": 68,
+                "success_rate": 35,
+                "reward": 55,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Protection des espèces menacées",
+                "mission_description": "Protéger les espèces animales en danger dans la région en mettant en place des mesures de conservation.",
+                "mission_status": "Disponible",
+                "level": 72,
+                "success_rate": 45,
+                "reward": 70,
+                "stars": 5
+            }
+        ]
+    },
+    {
+        "place_id": 3,
+        "country_name": "Madagascar",
+        "place_name": "Androy",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Étude des migrations d'oiseaux",
+                "mission_description": "Étudier les schémas de migration des oiseaux dans la région pour comprendre les dynamiques écologiques.",
+                "mission_status": "Disponible",
+                "level": 62,
+                "success_rate": 35,
+                "reward": 55,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Surveillance des feux de forêt",
+                "mission_description": "Surveiller et signaler les feux de forêt dans la région pour prévenir les incendies.",
+                "mission_status": "Disponible",
+                "level": 67,
+                "success_rate": 40,
+                "reward": 60,
+                "stars": 4
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Sensibilisation à la conservation",
+                "mission_description": "Organiser des programmes de sensibilisation pour promouvoir la conservation de la biodiversité dans la région.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 45,
+                "reward": 70,
+                "stars": 5
+            }
+        ]
+    },
+    {
+        "place_id": 4,
+        "country_name": "Madagascar",
+        "place_name": "Sofia",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Protection des tortues marines",
+                "mission_description": "Protéger les habitats des tortues marines dans la région en réduisant la pollution et en surveillant les activités humaines.",
+                "mission_status": "Disponible",
+                "level": 68,
+                "success_rate": 40,
+                "reward": 60,
+                "stars": 4
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Reforestation des mangroves",
+                "mission_description": "Participer à la reforestation des mangroves pour restaurer les écosystèmes côtiers et protéger la biodiversité marine.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 45,
+                "reward": 70,
+                "stars": 5
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Surveillance des récifs coralliens",
+                "mission_description": "Surveiller l'état des récifs coralliens dans la région pour détecter les signes de dégradation et mettre en place des mesures de conservation.",
+                "mission_status": "Disponible",
+                "level": 72,
+                "success_rate": 50,
+                "reward": 80,
+                "stars": 5
+            }
+        ]
+    },
+    {
+        "place_id": 5,
+        "country_name": "Madagascar",
+        "place_name": "Analajirofo",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Étude des lémuriens",
+                "mission_description": "Mener des études sur les populations de lémuriens dans la région pour évaluer leur état de conservation et identifier les menaces.",
+                "mission_status": "Disponible",
+                "level": 65,
+                "success_rate": 35,
+                "reward": 55,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Restauration des habitats",
+                "mission_description": "Participer à la restauration des habitats naturels pour protéger la biodiversité locale et favoriser la coexistence homme-faune.",
+                "mission_status": "Disponible",
+                "level": 68,
+                "success_rate": 40,
+                "reward": 60,
+                "stars": 4
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Éducation environnementale",
+                "mission_description": "Organiser des programmes d'éducation environnementale pour sensibiliser les communautés locales à la conservation et à la gestion durable des ressources naturelles.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 45,
+                "reward": 70,
+                "stars": 5
+            }
+        ]
+    },
+    {
+        "place_id": 6,
+        "country_name": "Madagascar",
+        "place_name": "Boeny",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Protection des forêts",
+                "mission_description": "Participer aux opérations de surveillance et de lutte contre la déforestation pour protéger les forêts de la région.",
+                "mission_status": "Disponible",
+                "level": 67,
+                "success_rate": 38,
+                "reward": 57,
+                "stars": 4
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Conservation des espèces menacées",
+                "mission_description": "Contribuer aux efforts de conservation des espèces menacées de la région en aidant à établir des programmes de protection et de réhabilitation.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 45,
+                "reward": 70,
+                "stars": 5
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Gestion des déchets",
+                "mission_description": "Participer à des initiatives de gestion des déchets pour réduire la pollution et promouvoir un environnement plus propre et plus sain.",
+                "mission_status": "Disponible",
+                "level": 72,
+                "success_rate": 50,
+                "reward": 80,
+                "stars": 5
+            }
+        ]
+    },
+    {
+        "place_id": 7,
+        "country_name": "Madagascar",
+        "place_name": "Betsiboka",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Surveillance de la qualité de l'eau",
+                "mission_description": "Effectuer des échantillonnages et des analyses pour surveiller la qualité de l'eau des cours d'eau de la région et détecter toute contamination.",
+                "mission_status": "Disponible",
+                "level": 65,
+                "success_rate": 35,
+                "reward": 55,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Restauration des zones humides",
+                "mission_description": "Participer à la restauration des zones humides pour préserver les écosystèmes aquatiques et protéger les espèces associées.",
+                "mission_status": "Disponible",
+                "level": 68,
+                "success_rate": 40,
+                "reward": 60,
+                "stars": 4
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Sensibilisation à la conservation",
+                "mission_description": "Organiser des campagnes de sensibilisation pour impliquer les communautés locales dans la conservation des ressources naturelles et la protection de l'environnement.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 45,
+                "reward": 70,
+                "stars": 5
+            }
+        ]
+    },
+    {
+        "place_id": 8,
+        "country_name": "Madagascar",
+        "place_name": "Melaky",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Surveillance des ressources marines",
+                "mission_description": "Participer à la surveillance des ressources marines de la région pour assurer une exploitation durable des écosystèmes côtiers.",
+                "mission_status": "Disponible",
+                "level": 68,
+                "success_rate": 40,
+                "reward": 60,
+                "stars": 4
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Protection des tortues marines",
+                "mission_description": "Contribuer à la protection des sites de ponte des tortues marines en surveillant les plages et en sensibilisant les populations locales.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 45,
+                "reward": 70,
+                "stars": 5
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Restauration des récifs coralliens",
+                "mission_description": "Participer à des programmes de restauration des récifs coralliens pour préserver la biodiversité marine et soutenir les moyens de subsistance locaux.",
+                "mission_status": "Disponible",
+                "level": 72,
+                "success_rate": 50,
+                "reward": 80,
+                "stars": 5
+            }
+        ]
+    },
+    {
+        "place_id": 9,
+        "country_name": "Madagascar",
+        "place_name": "Alaotramangoro",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Conservation des écosystèmes lacustres",
+                "mission_description": "Participer à la surveillance et à la préservation des écosystèmes lacustres uniques de la région pour protéger la biodiversité locale.",
+                "mission_status": "Disponible",
+                "level": 65,
+                "success_rate": 35,
+                "reward": 55,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Restauration des habitats d'oiseaux",
+                "mission_description": "Aider à restaurer les habitats d'oiseaux menacés dans la région pour soutenir la conservation des espèces aviaires locales.",
+                "mission_status": "Disponible",
+                "level": 68,
+                "success_rate": 40,
+                "reward": 60,
+                "stars": 4
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Sensibilisation à la conservation",
+                "mission_description": "Organiser des activités de sensibilisation pour encourager la communauté locale à participer à la conservation des écosystèmes lacustres.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 45,
+                "reward": 70,
+                "stars": 5
+            }
+        ]
+    },
+    {
+        "place_id": 10,
+        "country_name": "Madagascar",
+        "place_name": "Analamanga",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Reboisement",
+                "mission_description": "Participer à des activités de reboisement pour lutter contre la déforestation et restaurer les écosystèmes forestiers de la région.",
+                "mission_status": "Disponible",
+                "level": 65,
+                "success_rate": 35,
+                "reward": 55,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Éducation environnementale",
+                "mission_description": "Organiser des séances d'éducation environnementale pour sensibiliser la communauté locale à la conservation de la biodiversité et des ressources naturelles.",
+                "mission_status": "Disponible",
+                "level": 68,
+                "success_rate": 40,
+                "reward": 60,
+                "stars": 4
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Surveillance de la faune sauvage",
+                "mission_description": "Participer à la surveillance de la faune sauvage pour protéger les espèces menacées et lutter contre le braconnage dans la région.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 45,
+                "reward": 70,
+                "stars": 5
+            }
+        ]
+    },
+    {
+        "place_id": 11,
+        "country_name": "Madagascar",
+        "place_name": "Antsiranana",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Protection des mangroves",
+                "mission_description": "Participer à la protection et à la restauration des écosystèmes de mangroves pour préserver la biodiversité marine et soutenir les communautés côtières.",
+                "mission_status": "Disponible",
+                "level": 65,
+                "success_rate": 35,
+                "reward": 55,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Étude des récifs coralliens",
+                "mission_description": "Conduire des études sur les récifs coralliens pour évaluer leur santé et identifier les mesures de conservation nécessaires dans la région.",
+                "mission_status": "Disponible",
+                "level": 68,
+                "success_rate": 40,
+                "reward": 60,
+                "stars": 4
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Surveillance des espèces marines",
+                "mission_description": "Participer à la surveillance des espèces marines pour protéger les habitats marins et préserver la diversité biologique de la région.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 45,
+                "reward": 70,
+                "stars": 5
+            }
+        ]
+    },
+    {
+        "place_id": 12,
+        "country_name": "Madagascar",
+        "place_name": "Bongolava",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Protection des forêts",
+                "mission_description": "Participer à la protection des forêts primaires et secondaires pour préserver la biodiversité et lutter contre la déforestation dans la région.",
+                "mission_status": "Disponible",
+                "level": 65,
+                "success_rate": 35,
+                "reward": 55,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Gestion des ressources hydriques",
+                "mission_description": "Mener des actions de gestion durable des ressources hydriques pour assurer un approvisionnement en eau adéquat et protéger les écosystèmes aquatiques locaux.",
+                "mission_status": "Disponible",
+                "level": 68,
+                "success_rate": 40,
+                "reward": 60,
+                "stars": 4
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Sensibilisation à l'agriculture durable",
+                "mission_description": "Organiser des campagnes de sensibilisation à l'agriculture durable pour promouvoir des pratiques agricoles respectueuses de l'environnement et des ressources naturelles.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 45,
+                "reward": 70,
+                "stars": 5
+            }
+        ]
+    },
+    {
+        "place_id": 13,
+        "country_name": "Madagascar",
+        "place_name": "Itasy",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Restauration des lacs",
+                "mission_description": "Participer à des initiatives de restauration des lacs pour réhabiliter les écosystèmes lacustres et améliorer la qualité de l'eau dans la région.",
+                "mission_status": "Disponible",
+                "level": 65,
+                "success_rate": 35,
+                "reward": 55,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Surveillance de la qualité de l'air",
+                "mission_description": "Mener des opérations de surveillance de la qualité de l'air pour évaluer les levelx de pollution atmosphérique et promouvoir des mesures de réduction de la pollution dans la région.",
+                "mission_status": "Disponible",
+                "level": 68,
+                "success_rate": 40,
+                "reward": 60,
+                "stars": 4
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Éducation à la gestion des déchets",
+                "mission_description": "Organiser des programmes d'éducation à la gestion des déchets pour sensibiliser la population locale à l'importance du tri sélectif et du recyclage.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 45,
+                "reward": 70,
+                "stars": 5
+            }
+        ]
+    },
+    {
+        "place_id": 14,
+        "country_name": "Madagascar",
+        "place_name": "Vakinakaratra",
+        "camera": {
+            "rotation" : 0,
+            "perspective" : 700,
+            "skewX" : 0,
+            "skewY" : 0,
+            "scale" : 15,
+            "x" : -150,
+            "y" : -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Exploration souterraine",
+                "mission_description": "Explorer des grottes inexplorées pour découvrir de nouvelles espèces",
+                "mission_status": "In Progress",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Étude des oiseaux migrateurs",
+                "mission_description": "Observer et étudier les routes migratoires des oiseaux",
+                "mission_status": "Done",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Protection des tortues marines",
+                "mission_description": "Protéger les sites de nidification des tortues marines menacées",
+                "mission_status": "Available",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            }
+        ]
+    },
+    {
+        "place_id": 15,
+        "country_name": "Madagascar",
+        "place_name": "Menabe",
+        "camera": {
+            "rotation" : 0,
+            "perspective" : 700,
+            "skewX" : 0,
+            "skewY" : 0,
+            "scale" : 15,
+            "x" : -150,
+            "y" : -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Recherche botanique",
+                "mission_description": "Identifier et cataloguer les plantes médicinales rares de la région",
+                "mission_status": "In Progress",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Surveillance des félins",
+                "mission_description": "Surveiller les populations de félins pour protéger le bétail des éleveurs locaux",
+                "mission_status": "Done",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Sensibilisation à la conservation",
+                "mission_description": "Organiser des programmes éducatifs pour sensibiliser les communautés locales à la conservation",
+                "mission_status": "Available",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            }
+        ]
+    },
+    {
+        "place_id": 16,
+        "country_name": "Madagascar",
+        "place_name": "Amoron i Mania",
+        "camera": {
+            "rotation" : 0,
+            "perspective" : 700,
+            "skewX" : 0,
+            "skewY" : 0,
+            "scale" : 15,
+            "x" : -150,
+            "y" : -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Étude des chauves-souris",
+                "mission_description": "Étudier les colonies de chauves-souris pour comprendre leur rôle dans l'écosystème local",
+                "mission_status": "In Progress",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Restauration des rivières",
+                "mission_description": "Restaurer les écosystèmes fluviaux dégradés pour protéger la biodiversité aquatique",
+                "mission_status": "Done",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Reforestation",
+                "mission_description": "Planter des arbres pour restaurer les forêts dégradées et lutter contre le changement climatique",
+                "mission_status": "Available",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            }
+        ]
+    },
+    {
+        "place_id": 17,
+        "country_name": "Madagascar",
+        "place_name": "Haute Matsiatra",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Étude des orchidées rares",
+                "mission_description": "Rechercher et documenter les orchidées rares de la région.",
+                "mission_status": "En cours",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Protection des lémuriens",
+                "mission_description": "Protéger les habitats des lémuriens menacés de la région.",
+                "mission_status": "Terminé",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Sensibilisation à la conservation",
+                "mission_description": "Organiser des programmes de sensibilisation à la conservation de la faune et de la flore locales.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            }
+        ]
+    },
+    {
+        "place_id": 18,
+        "country_name": "Madagascar",
+        "place_name": "Atsimo Andrefana",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Réhabilitation des mangroves",
+                "mission_description": "Participer à la restauration des écosystèmes de mangroves dégradées.",
+                "mission_status": "En cours",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Protection des tortues de mer",
+                "mission_description": "Surveiller et protéger les sites de nidification des tortues de mer.",
+                "mission_status": "Terminé",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Éducation environnementale",
+                "mission_description": "Enseigner l'importance de la préservation de l'environnement aux communautés locales.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            }
+        ]
+    },
+    {
+        "place_id": 19,
+        "country_name": "Madagascar",
+        "place_name": "Ihorombe",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Étude de la flore endémique",
+                "mission_description": "Effectuer des recherches sur la flore endémique et menacée de la région.",
+                "mission_status": "En cours",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Protection des rapaces",
+                "mission_description": "Protéger les populations de rapaces menacées de la région.",
+                "mission_status": "Terminé",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Restauration des écosystèmes",
+                "mission_description": "Restaurer les écosystèmes dégradés pour favoriser la biodiversité.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            }
+        ]
+    },
+    {
+        "place_id": 20,
+        "country_name": "Madagascar",
+        "place_name": "Anosy",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Observation des baleines",
+                "mission_description": "Observer et étudier les migrations des baleines à bosse dans la région.",
+                "mission_status": "En cours",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Protection des cétacés",
+                "mission_description": "Mettre en place des mesures de protection pour les populations de cétacés.",
+                "mission_status": "Terminé",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Sensibilisation à la préservation marine",
+                "mission_description": "Sensibiliser les communautés locales à la préservation de l'écosystème marin.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            }
+        ]
+    },
+    {
+        "place_id": 21,
+        "country_name": "Madagascar",
+        "place_name": "Atsimo Atsinanana",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Restauration des forêts",
+                "mission_description": "Participer à la restauration des forêts dégradées de la région.",
+                "mission_status": "En cours",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Protection des espèces menacées",
+                "mission_description": "Protéger les espèces végétales et animales menacées de la région.",
+                "mission_status": "Terminé",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Éducation environnementale",
+                "mission_description": "Sensibiliser les jeunes à l'importance de la préservation de l'environnement.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            }
+        ]
+    },
+    {
+        "place_id": 22,
+        "country_name": "Madagascar",
+        "place_name": "Vatovavy",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Surveillance des aires protégées",
+                "mission_description": "Surveiller les aires protégées et lutter contre le braconnage.",
+                "mission_status": "En cours",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Reforestation",
+                "mission_description": "Planter des arbres pour restaurer les écosystèmes forestiers dégradés.",
+                "mission_status": "Terminé",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Conservation des lémuriens",
+                "mission_description": "Mettre en place des programmes de conservation pour les lémuriens.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            }
+        ]
+    }
+    ,
+    {
+        "place_id": 23,
+        "country_name": "Madagascar",
+        "place_name": "Fitovinany",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Étude de la biodiversité",
+                "mission_description": "Mener une étude sur la biodiversité de la région de Fitovinany.",
+                "mission_status": "En cours",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Conservation des écosystèmes",
+                "mission_description": "Contribuer à la conservation des écosystèmes fragiles de la région.",
+                "mission_status": "Terminé",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Restauration des habitats naturels",
+                "mission_description": "Participer à la restauration des habitats naturels dégradés.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            }
+        ]
+    },
+    {
+        "place_id": 24,
+        "country_name": "Comore",
+        "place_name": "Grande-Comore",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Restauration des récifs coralliens",
+                "mission_description": "Contribuer à la restauration des récifs coralliens autour de Grande-Comore.",
+                "mission_status": "En cours",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Sensibilisation à la préservation marine",
+                "mission_description": "Sensibiliser la population locale à l'importance de la préservation marine.",
+                "mission_status": "Terminé",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Nettoyage des plages",
+                "mission_description": "Organiser des opérations de nettoyage des plages de Grande-Comore.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            }
+        ]
+    },
+    {
+        "place_id": 25,
+        "country_name": "Comore",
+        "place_name": "Anjouan",
+        "camera": {
+            "rotation": 0,
+            "perspective": 700,
+            "skewX": 0,
+            "skewY": 0,
+            "scale": 15,
+            "x": -150,
+            "y": -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "Protection des tortues marines",
+                "mission_description": "Protéger les sites de nidification des tortues marines sur l'île d'Anjouan.",
+                "mission_status": "En cours",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "Surveillance des pêches",
+                "mission_description": "Surveiller les activités de pêche pour prévenir la surpêche.",
+                "mission_status": "Terminé",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "Aménagement des aires marines protégées",
+                "mission_description": "Contribuer à la mise en place d'aires marines protégées autour d'Anjouan.",
+                "mission_status": "Disponible",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            }
+        ]
+    }
+    ,
+    {
+        "place_id": 26,
+        "country_name": "Comore",
+        "place_name": "Moheli",
+        "camera": {
+            "rotation" : 0,
+            "perspective" : 700,
+            "skewX" : 0,
+            "skewY" : 0,
+            "scale" : 15,
+            "x" : -150,
+            "y" : -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "webcup",
+                "mission_description": "",
+                "mission_status": "In Progress",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "webcup 2024",
+                "mission_description": "",
+                "mission_status": "Done",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "2025",
+                "mission_description": "",
+                "mission_status": "Available",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            }
+        ]
+    },
+    {
+        "place_id": 27,
+        "country_name": "Mayotte",
+        "place_name": "Mayotte",
+        "camera": {
+            "rotation" : 0,
+            "perspective" : 700,
+            "skewX" : 0,
+            "skewY" : 0,
+            "scale" : 15,
+            "x" : -150,
+            "y" : -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "webcup",
+                "mission_description": "",
+                "mission_status": "In Progress",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "webcup 2024",
+                "mission_description": "",
+                "mission_status": "Done",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "2025",
+                "mission_description": "",
+                "mission_status": "Available",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            }
+        ]
+    },
+    {
+        "place_id": 28,
+        "country_name": "Maurice",
+        "place_name": "Maurice",
+        "camera": {
+            "rotation" : 0,
+            "perspective" : 700,
+            "skewX" : 0,
+            "skewY" : 0,
+            "scale" : 15,
+            "x" : -150,
+            "y" : -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "webcup",
+                "mission_description": "",
+                "mission_status": "In Progress",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "webcup 2024",
+                "mission_description": "",
+                "mission_status": "Done",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "2025",
+                "mission_description": "",
+                "mission_status": "Available",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            }
+        ]
+    },
+    {
+        "place_id": 29,
+        "country_name": "La Réunion",
+        "place_name": "La Réunion",
+        "camera": {
+            "rotation" : 0,
+            "perspective" : 700,
+            "skewX" : 0,
+            "skewY" : 0,
+            "scale" : 15,
+            "x" : -150,
+            "y" : -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "webcup",
+                "mission_description": "",
+                "mission_status": "In Progress",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "webcup 2024",
+                "mission_description": "",
+                "mission_status": "Done",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "2025",
+                "mission_description": "",
+                "mission_status": "Available",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            }
+        ]
+    },
+    {
+        "place_id": 30,
+        "country_name": "Rodrigues",
+        "place_name": "Rodrigues",
+        "camera": {
+            "rotation" : 0,
+            "perspective" : 700,
+            "skewX" : 0,
+            "skewY" : 0,
+            "scale" : 15,
+            "x" : -150,
+            "y" : -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "webcup",
+                "mission_description": "",
+                "mission_status": "In Progress",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "webcup 2024",
+                "mission_description": "",
+                "mission_status": "Done",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "2025",
+                "mission_description": "",
+                "mission_status": "Available",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            }
+        ]
+    },
+    {
+        "place_id": 31,
+        "country_name": "Seychelles",
+        "place_name": "Praslin",
+        "camera": {
+            "rotation" : 0,
+            "perspective" : 700,
+            "skewX" : 0,
+            "skewY" : 0,
+            "scale" : 15,
+            "x" : -150,
+            "y" : -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "webcup",
+                "mission_description": "",
+                "mission_status": "In Progress",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "webcup 2024",
+                "mission_description": "",
+                "mission_status": "Done",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "2025",
+                "mission_description": "",
+                "mission_status": "Available",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            }
+        ]
+    },
+    {
+        "place_id": 32,
+        "country_name": "Seychelles",
+        "place_name": "Mahe",
+        "camera": {
+            "rotation" : 0,
+            "perspective" : 700,
+            "skewX" : 0,
+            "skewY" : 0,
+            "scale" : 15,
+            "x" : -150,
+            "y" : -170
+        },
+        "missions": [
+            {
+                "mission_id": "m1",
+                "mission_name": "webcup",
+                "mission_description": "",
+                "mission_status": "In Progress",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m2",
+                "mission_name": "webcup 2024",
+                "mission_description": "",
+                "mission_status": "Done",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            },
+            {
+                "mission_id": "m3",
+                "mission_name": "2025",
+                "mission_description": "",
+                "mission_status": "Available",
+                "level": 70,
+                "success_rate": 30,
+                "reward": 50,
+                "stars": 3
+            }
+        ]
+    }
+    
+    
+]

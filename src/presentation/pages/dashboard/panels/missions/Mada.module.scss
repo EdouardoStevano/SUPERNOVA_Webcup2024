@@ -1,0 +1,203 @@
+// @import '../../../styles/variable';
+
+.mada_all{
+    width: 100%;
+    height: 100%;
+    // background-color: black;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    // font-family: 'Montserrat';
+
+    .mada_bigy{
+        width: 100%;
+        height: 100%;
+        // background-color: rgb(255, 164, 164);
+
+        position: relative;
+
+
+        .mada_column1{
+          // background-color: green;
+          height: 100%;
+          width: 50%;
+          position: relative;
+          float: left;
+          display: flex;
+          align-items: center;
+          justify-content: right;
+
+          .localisation{
+            // background-color: red;
+          }
+
+          .back_map{
+            margin: 20px;
+            background-color: gray;
+            color: black;
+            text-align: center;
+            font-size: xx-large;
+            border-radius: 10px;
+            cursor: pointer;
+            width: 50px;
+            height: 50px;
+            z-index: 10;
+            display: none;
+            transition: 0.3s;
+
+            top: calc(-50% + 25px);
+            // right: calc(50vw - 100px);
+            right: calc(100% - 80px);
+            position: relative;
+            
+          }
+
+          .back_map:hover{
+            background-color: white;
+          }
+          
+        }
+
+        .mada_column2{
+            // background-color: green;
+            height: 100%;
+            width: 50%;
+            position: relative;
+            float: left;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+
+            h1{
+                font-size: 250%;
+                transition: 0.3s;
+            }
+
+
+            .mada_card{
+                background-color: #313131;
+                width: 500px;
+                // height: 300px;
+                border-radius: 50px;
+                margin: 30px;
+                padding: 20px;
+                transition: 0.3s;
+                transform: scale(90%,90%);
+
+                .box_lieu{
+
+                }
+
+                .box_mission{
+                  display: none;
+                }
+
+                .liste_mission{
+                  width: 100%;
+                  height: 300px;
+                  overflow-y: scroll;
+                  // background-color: red;
+
+
+                  .mission_box{
+                    position: relative;
+                    width: 100%;
+                    height: 100px;
+                    background-color: rgb(170, 170, 170);
+                    border-radius: 10px;
+                    margin-top: 10px;
+                    color:#001324;
+
+                    .title{
+                      // padding: 5px;
+                      padding-left: 10px;
+                      padding-right: 10px;
+                      width: 100%;
+                      height: 30px;
+                    }
+                  }
+                }
+                
+
+                .progress {
+                    width: 100%;
+                    background-color: #f3f3f3;
+                    border-radius: 20px;
+                    overflow: hidden;
+                  }
+              
+                  .progressBar {
+                    // width: 50%;
+                    height: 30px;
+                    background-color: #4CAF50;
+                    text-align: center;
+                    line-height: 30px;
+                    color: white;
+                    transition: 0.3s;
+                  }
+
+                  .progressBar2 {
+                    // width: 50%;
+                    height: 30px;
+                    background-color: #80E611;
+                    text-align: center;
+                    line-height: 30px;
+                    color: white;
+                    transition: 0.3s;
+                  }
+
+                  .progressBar3 {
+                    // width: 50%;
+                    height: 30px;
+                    background-color: #8F00FF;
+                    text-align: center;
+                    line-height: 30px;
+                    color: white;
+                    transition: 0.3s;
+                  }
+            }
+        }
+
+        @media screen and (max-width: 1200px) {
+          .mada_column1{
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+          }
+
+          .mada_column2{
+            width: calc(100% - 100px);
+            // height: 200px;
+            // background-color: red;
+            float: left;
+            right: 20px;
+            top: 20px;
+            align-items: normal;
+            position:absolute;
+            padding: 0;
+           
+            
+            .mada_card{
+              position: absolute;
+              // float: left;
+              // width: 500px;
+              // height: 400px;
+              float: left;
+              bottom: 0;
+              margin: 0;
+              right: 20px;
+              transform: scale(70%,70%);
+              background-color: #313131d7;
+            }
+          }
+
+          .back_map{
+            position: fixed;
+            
+          }
+        }
+    }
+
+}

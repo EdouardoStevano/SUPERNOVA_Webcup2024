@@ -49,14 +49,6 @@ function Band() {
             &amp; stratégie.
             <span class="text-stroke-black"> . "</span>
           </div>
-          <div class="marquee-title">
-            / Un avenir <span class="text-stroke-black">Dans </span>
-            &amp; l'ombre.
-            <span class="text-stroke-black">" secrets </span> /  le silence
-            <span class="text-stroke-black">est une</span>
-            &amp; stratégie.
-            <span class="text-stroke-black"> . "</span>
-          </div>
       
         </div>
       </h3>
