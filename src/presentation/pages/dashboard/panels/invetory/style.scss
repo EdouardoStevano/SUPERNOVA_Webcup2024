@@ -2,6 +2,7 @@
     display: flex;
     width: 100%;
     height: 100%;
+    background: var(--fillInput);
     .info-inventor{
         display: flex;
         flex-direction: column;
@@ -22,11 +23,11 @@
             width: 100%;
             height: 45%;
             background : var(--fillInput);
-            border-top:  2px solid var(--darkFontColor);
             .title{
                 h1{
                     font-size: 1.2em;
                     text-align: center;
+                    color : var(--darkFontColor)
                 }
             }
             .caracteristique{
@@ -47,7 +48,7 @@
                 }
                 .skill-name{
                     font-size: .8em;
-                    color : #fff;
+                    color : var(--darkFontColor);
                 }
             }
         }
@@ -114,6 +115,25 @@
                     object-fit: contain;
                 }
             }
+        }
+    }
+}
+
+// @media ( max-width : 750px){
+//     .inventory-container{
+//         flex-direction: column;
+//         .info-inventor{
+//             flex-direction: row;
+//             width: 100%;
+//             height: 40%;
+//         }
+//     }
+// }
+@media (max-width : 450px){
+    .categorie-container{
+        height: 50px!important;
+        .categorie{
+            width: 25px;
         }
     }
 }

@@ -1,0 +1,28 @@
+.faciale{
+    .faciale-content{
+        width: 100%;
+        flex-direction: flex;
+        align-items: center;
+        h1{
+            color: #fff;
+            text-align: center;
+            font-size: 40px;
+        }
+        
+        // .backfromfacial{
+        //     text-align: center;
+        //     margin: 0px auto;
+        //     color: #fff;
+        //     flex-direction: flex;
+        //     align-items: center;
+        // }
+
+        .camera{
+            width: 60vh;
+            height: 60vh;
+            text-align: center;
+            margin: 0px auto;
+        }
+
+    }
+}
