@@ -1,0 +1,143 @@
+[
+    {
+      "country_id": 1,
+      "data": {
+        "country_name": "Seychelles",
+        "mission_number": 60,
+        "mission_done": 35,
+        "mission_failure": 5,
+        "mission_available": 20,
+        "level": 80,
+        "camera": {
+            "rotation" : 0,
+            "perspective" : 700,
+            "skewX" : 0,
+            "skewY" : 0,
+            "scale" : 7,
+            "x" : -50,
+            "y" : 370
+        }
+      }
+    },
+    {
+      "country_id": 2,
+      "data": {
+        "country_name": "Maurice",
+        "mission_number": 70,
+        "mission_done": 20,
+        "mission_failure": 3,
+        "mission_available": 47,
+        "level": 50,
+        "camera": {
+            "rotation" : 0,
+            "perspective" : 700,
+            "skewX" : 0,
+            "skewY" : 0,
+            "scale" : 15,
+            "x" : -150,
+            "y" : -170
+        }
+      }
+    },
+    {
+      "country_id": 3,
+      "data": {
+        "country_name": "Comores",
+        "mission_number": 55,
+        "mission_done": 15,
+        "mission_failure": 7,
+        "mission_available": 33,
+        "level": 40,
+        "camera": {
+            "rotation" : 0,
+            "perspective" : 700,
+            "skewX" : 0,
+            "skewY" : 0,
+            "scale" : 8,
+            "x" : 300,
+            "y" : 50
+        }
+      }
+    },
+    {
+      "country_id": 4,
+      "data": {
+        "country_name": "Mayottes",
+        "mission_number": 40,
+        "mission_done": 45,
+        "mission_failure": 1,
+        "mission_available": 8,
+        "level": 90,
+        "camera": {
+            "rotation" : 0,
+            "perspective" : 700,
+            "skewX" : 0,
+            "skewY" : 0,
+            "scale" : 20,
+            "x" : 235,
+            "y" : 15
+        }
+      }
+    },
+    {
+      "country_id": 5,
+      "data": {
+        "country_name": "Madagascar",
+        "mission_number": 80,
+        "mission_done": 10,
+        "mission_failure": 5,
+        "mission_available": 65,
+        "level": 30,
+        "camera": {
+            "rotation" : 0,
+            "perspective" : 700,
+            "skewX" : 0,
+            "skewY" : 0,
+            "scale" : 1.8,
+            "x" : 200,
+            "y" : -150
+        }
+      }
+    },
+    {
+      "country_id": 6,
+      "data": {
+        "country_name": "Rodrigues",
+        "mission_number": 45,
+        "mission_done": 25,
+        "mission_failure": 5,
+        "mission_available": 15,
+        "level": 60,
+        "camera": {
+            "rotation" : 0,
+            "perspective" : 700,
+            "skewX" : 0,
+            "skewY" : 0,
+            "scale" : 20,
+            "x" : -305,
+            "y" : -165
+        }
+      }
+    },
+    {
+      "country_id": 7,
+      "data": {
+        "country_name": "La Réunion",
+        "mission_number": 65,
+        "mission_done": 30,
+        "mission_failure": 2,
+        "mission_available": 33,
+        "level": 70,
+        "camera": {
+            "rotation" : 0,
+            "perspective" : 700,
+            "skewX" : 0,
+            "skewY" : 0,
+            "scale" : 15,
+            "x" : -88,
+            "y" : -200
+        }
+      }
+    }
+  ]
+  
