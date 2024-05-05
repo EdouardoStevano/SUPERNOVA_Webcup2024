@@ -211,7 +211,7 @@ const SignIn = () => {
                         }}
                         to="/auth/signup"
                         className="btn-signUp">
-                        Créer un compte
+                        Devenir agent
                     </Link>
                 </div>
             </div>

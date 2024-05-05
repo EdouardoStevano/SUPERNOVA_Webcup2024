@@ -12,7 +12,7 @@ function authHeader() {
     <div className='authHeader-container'>
         {/* <img src={Logo} alt="Spyctre Logo" /> */}
         <Link to={'/'} className='authBack-btn'>retour</Link>
-        <Link to={'/'} className='authBack-btn'>Par reconnaissance faciale</Link>
+        <Link to={'/auth/faciale'} className='authBack-btn'>Par reconnaissance faciale</Link>
     </div>
   )
 }
