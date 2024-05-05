@@ -2,6 +2,7 @@ import React from 'react'
 
 import "./style.scss"
 import { Link } from 'react-router-dom'
+import FaceDetection from './components/FaceDetection'
 
 const RecFaciale = () => {
   return (
@@ -10,7 +11,7 @@ const RecFaciale = () => {
             <h1>Reconnaissance Faciale</h1>
 
             <div className="camera">
-
+              <FaceDetection/>
             </div>
 
             {/* <Link className='backfromfacial' to={"/auth"}>Retour à l'authetification</Link> */}
