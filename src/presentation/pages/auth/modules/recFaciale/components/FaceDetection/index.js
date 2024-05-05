@@ -21,6 +21,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 import { initFaceDetectionAnimation } from "./components/face-animation";
+import { useNavigate } from "react-router-dom";
 
 const imageTranings = [
     ImageToFind, ImageToFind1, ImageToFind2, ImageToFind3, ImageToFind4, ImageToFind5
@@ -36,13 +37,13 @@ function FaceDetection() {
 
     const videoRef = useRef(null);
     const canvasRef = useRef(null);
+    const navigate = useNavigate()
 
     useEffect(() => {
         setVideo(videoRef.current);
         setCanvas(canvasRef.current);
-        start();
     }, []);
-    
+
     const start = async () => {
         await launchCamera();
         const recognition = makeRecognition();
@@ -58,7 +59,8 @@ function FaceDetection() {
 
         const init = async () => {
             setLoading(true);
-            await loadTinyFaceDetectorModel(`/models`);
+            // @ts-ignore
+            await loadTinyFaceDetectorModel("/models");
             await loadFaceLandmarkTinyModel("/models");
             ctx = canvas.getContext("2d");
         };
@@ -71,7 +73,7 @@ function FaceDetection() {
                     getFaceDetectorOptions()
                 ).withFaceLandmarks(true);
                 setLoading(false);
-                if (faces) {
+                if (faces && canvas) {
                     setDetected(true);
                     const dims = matchDimensions(canvas, video, true);
                     const resizedResults = resizeResults(faces, dims);
@@ -117,7 +119,9 @@ function FaceDetection() {
                     },
                     () => { }
                 )
-                .catch(err=> console.log("error"))
+                .catch(err => {
+                    //
+                })
         });
 
     const handleCapture = () => {
@@ -180,12 +184,10 @@ function FaceDetection() {
                                 .then(response => {
                                     console.log(response.data);
                                     if (response.data.confidence >= 70) {
-                                        console.log("Il est là !");
-                                        toast.info("Il est là !")
+                                        navigate("/dashboard")
                                     }
                                     else {
-                                        console.log("Il est introuvable");
-                                        toast.info("Il est introuvable")
+                                        toast.info("Vous n'êtes pas un agent !")
                                     }
                                 })
                                 .catch(error => {
@@ -212,26 +214,13 @@ function FaceDetection() {
     return (
         <div style={{ position: "relative" }}>
             <ToastContainer />
-            {!camera && (
-                <button
-                    style={{
-                        padding: 20,
-                        fontSize: 14
-                    }}
-                    onClick={() => {
-                        start();
-                    }}
-                >
-                    Utiliser la caméra
-                </button>
-            )}
             <div style={{ position: "relative" }}>
                 {
                     isLoading &&
                     <div id="three-container"
                         style={{
                             position: "absolute",
-                            top: 155,
+                            top: 156,
                             left: 0,
                             width: "100%",
                             height: 340,
@@ -244,7 +233,7 @@ function FaceDetection() {
                     ></div>
                 }
                 <video
-                    style={{ position: "absolute", top: 100, left: 0, width: "100%" }}
+                    style={{ position: "absolute", top: 100, left: 0, width: "100%", borderRadius: "14px" }}
                     ref={videoRef}
                 />
                 <canvas
@@ -273,7 +262,9 @@ function FaceDetection() {
                 )}
             </div>
             <br />
-            <button className='btn-submit' onClick={handleCapture}>Retrouver maintenant</button>
+            <button className='btn-submit' onClick={!camera ? start : handleCapture}>
+                {!camera ? "Commencer la reconnaissace" : "S'identifier"}
+            </button>
         </div>
     );
 };
