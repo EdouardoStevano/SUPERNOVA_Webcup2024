@@ -1,7 +1,12 @@
+import { useEffect, useState } from "react";
+
 // window.onload = initFaceDetectionAnimation;
 console.ward = function() {}; // what warnings?
 
 export function initFaceDetectionAnimation(faceImage) {
+  const [width, setWidth] = useState(70)
+  const [height, setHeight] = useState(70)
+
   let root = new THREERoot({
     createCameraControls: !true,
     antialias: (window.devicePixelRatio === 1),
@@ -12,8 +17,13 @@ export function initFaceDetectionAnimation(faceImage) {
   root.renderer.setPixelRatio(window.devicePixelRatio || 1);
   root.camera.position.set(0, 0, 70);
 
-  let width = 70;
-  let height = 60;
+  useEffect(()=>{
+    window.addEventListener('resize', function() {
+      const windowWidth = window.innerWidth;
+      // Use the 'windowWidth' variable to perform your desired actions
+      console.log('Window width:', windowWidth);
+    });
+  },[])
 
   let slide = new Slide(width, height, 'out');
 	let l1 = new window.THREE.ImageLoader();
