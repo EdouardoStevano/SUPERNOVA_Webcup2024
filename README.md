@@ -11,14 +11,14 @@
   <div align="center">   
     <img src="./src/presentation/assets/image/branding/webcup.png" alt="logo" width="200" height="auto" />
   </div> 
-  <p>La Webcup 2024 est l'événement incontournable de l'année pour les passionnés du numérique, les créatifs de l'internet et les innovateurs de demain. Cette compétition palpitante réunit des équipes du monde entier pour relever des défis technologiques, repousser les limites de la créativité et créer l'avenir du web.</p> 
+  <p>Spyctre, la plateforme en ligne ultime pour les agents double zéros. Notre site offre un accès exclusif à un réseau mondial de missions d'espionnage hautement confidentielles, conçues pour les agents les plus habiles et les plus discrets.</p> 
 
   ---
 
-  <h1>A propos de notre projet : PROJECT_NAME</h1>
+  <h1>A propos de notre projet : Spyctre</h1>
 
   <div align="center">   
-    <img src="./src/presentation/assets/image/supernova/Supernova_Logo_White.png" alt="logo" width="200" height="auto" />
+    <img src="./src/presentation/assets/image/spyctre/Logo512_1.png alt="logo" width="200" height="auto" />
   </div> 
 
   <p>Description du projet</p> 
@@ -37,9 +37,9 @@
   # Fonctionnalité
   |    |   Fonctionnalités         | Description |
   |----|-------------------|---------------------------------------------------------------|
-  | 🧩  | **REACT**  | Choisi pour sa popularité, sa flexibilité et sa performance. React permet de construire des interfaces utilisateur dynamiques et réactives, tout en assurant une séparation claire entre la logique métier et la présentation grâce au modèle MVP.|
-  | 🔩 | **NodeJs**  | Sélectionné pour son architecture légère et sa capacité à gérer de grandes charges de travail en temps réel. Node.js offre une rapidité et une évolutivité idéales pour les applications nécessitant une communication en temps réel, tout en respectant les bonnes pratiques de codage et les directives de style Android.   |
-  | 📦 | **Blender** | Choisit pour sa polyvalence et sa puissance dans la modélisation et l'animation 3D. Blender permet de créer des graphismes et des animations époustouflants pour enrichir l'expérience utilisateur, même si la documentation fournie est succincte mais suffisante pour comprendre les éléments 3D du projet. |
+  | 🧩  | **Gestion de mission**  | La gestion de mission repose sur React en raison de sa popularité, sa flexibilité et sa performance. Grâce à React, il est possible de développer des interfaces utilisateur dynamiques et réactives. De plus, React assure une séparation claire entre la logique métier et la présentation, grâce à son modèle MVP (Modèle-Vue-Présentation). Cette architecture facilite la maintenance et l'évolutivité des applications, tout en offrant une expérience utilisateur fluide et intuitive.|
+  | 🔩 | **Gestion d'identité**  | La gestion d'identité repose sur Node.js en raison de son architecture légère et de sa capacité à gérer de grandes charges de travail en temps réel. Node.js offre une rapidité et une évolutivité idéales pour les applications nécessitant une communication en temps réel, telles que la gestion d'identité. De plus, Node.js respecte les bonnes pratiques de codage et les directives de style Android, assurant ainsi la stabilité et la sécurité de l'application.|
+  | 📦 | **Invetaire de gadgets** |L'inventaire de gadgets repose sur Blender en raison de sa polyvalence et de sa puissance dans la modélisation et l'animation 3D. Blender permet de créer des graphismes et des animations époustouflants pour enrichir l'expérience utilisateur. Malgré une documentation parfois succincte, Blender offre des fonctionnalités suffisantes pour comprendre et intégrer des éléments 3D de manière efficace dans le projet.|
 
   ---
 
@@ -90,10 +90,10 @@ Démarrez le serveur
 
 ## :wave: Team
 <p> 
-  <img src="./src/presentation/assets/image/supernova/team/stevano.png" width="120px" height="120px" title="Stevano"/>
-  <img src="./src/presentation/assets/image/supernova/team/Kevin.jpg" width="120px" height="120px" title="Kevin"/>
+  <img src="./src/presentation/assets/image/supernova/team/stevano.webp" width="120px" height="120px" title="Stevano"/>
+  <img src="./src/presentation/assets/image/supernova/team/Kevin.webp" width="120px" height="120px" title="Kevin"/>
   <img src="./src/presentation/assets/image/supernova/team/Lucas.jpg" width="120px" height="120px" title="Lucas"/>
-  <img src="./src/presentation/assets/image/supernova/team/francky.jpg" width="120px" height="120px" title="Francky"/>
+  <img src="./src/presentation/assets/image/supernova/team/francky.webp" width="120px" height="120px" title="Francky"/>
 </p> 
 Une équipe de choc!
 

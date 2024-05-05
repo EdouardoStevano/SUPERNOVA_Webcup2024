@@ -30,6 +30,7 @@
             border: none;
             border-radius: 10px;
             cursor: pointer;
+            margin-right: 20px;
             transition: 0.3s ease;
 
             &:hover{
@@ -37,6 +38,11 @@
                 color: var(--primaryColor);
             }
         }
+
+        .auto-destruction{
+            background-color: var(--dangerColor);
+        }
+
         
       }
       
