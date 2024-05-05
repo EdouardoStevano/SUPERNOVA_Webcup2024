@@ -1,0 +1,9 @@
+.FacialDetectorCalss{
+    .facial-btn{
+        transition: all .4s;
+        @media (max-width:620px) {
+            transition: all .4s;
+            width: auto;
+        }
+    }
+}

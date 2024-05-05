@@ -11,7 +11,6 @@ import Layout from '../../layouts/nav2/layout'
 import Band from 'presentation/components/component/band/band';
 import SliderScroll from 'presentation/components/component/sliderScroll/ScrollSlider';
 import About from './section/about/presentation';
-import Partener from './section/partener';
 
 
 const LandingPage = () => {
@@ -28,7 +27,6 @@ const LandingPage = () => {
       <Band />
       <About />
       <SliderScroll />
-      {/* <Partener /> */}
       {/* <Service /> */}
       {/* <Instruction /> */}
     </div>

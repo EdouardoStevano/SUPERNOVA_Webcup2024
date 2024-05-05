@@ -1,7 +1,11 @@
+import { useEffect, useState } from "react";
+
 // window.onload = initFaceDetectionAnimation;
 console.ward = function() {}; // what warnings?
 
-export function initFaceDetectionAnimation(faceImage) {
+export function initFaceDetectionAnimation(faceImage, width=70, height=70) {
+
+
   let root = new THREERoot({
     createCameraControls: !true,
     antialias: (window.devicePixelRatio === 1),
@@ -12,9 +16,24 @@ export function initFaceDetectionAnimation(faceImage) {
   root.renderer.setPixelRatio(window.devicePixelRatio || 1);
   root.camera.position.set(0, 0, 70);
 
-  let width = 70;
-  let height = 60;
+  // useEffect(() => {
+  //   // // Débogage de la fonction de redimensionnement
+  //   // const handleResize = debounce(() => {
+  //   //   console.log("dsfesf",{
+  //   //     width: window.innerWidth,
+  //   //     height: window.innerHeight
+  //   //   });
+  //   // }, 100); // 100 ms de délai
 
+  //   // window.addEventListener('resize', handleResize);
+  //   // return () => {
+  //   //   // handleResize.cancel(); // Annuler le debounce en cours lors du nettoyage
+  //   //   window.removeEventListener('resize', handleResize);
+  //   // };
+  // }, []);
+
+  // let width=70
+  // let height=70
   let slide = new Slide(width, height, 'out');
 	let l1 = new window.THREE.ImageLoader();
 	l1.setCrossOrigin('Anonymous');

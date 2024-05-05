@@ -18,7 +18,7 @@
   <h1>A propos de notre projet : Spyctre</h1>
 
   <div align="center">   
-    <img src="./src/presentation/assets/image/spyctre/Logo512_1.png alt="logo" width="200" height="auto" />
+    <img src="./src/presentation/assets/image/spyctre/Logo512_1.png" alt="logo" width="200" height="auto" />
   </div> 
 
   <p>Description du projet</p> 

@@ -22,6 +22,7 @@ import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 import { initFaceDetectionAnimation } from "./components/face-animation";
 import { useNavigate } from "react-router-dom";
+import './index.scss'
 
 const imageTranings = [
     ImageToFind, ImageToFind1, ImageToFind2, ImageToFind3, ImageToFind4, ImageToFind5
@@ -34,6 +35,8 @@ function FaceDetection() {
     const [camera, setCamera] = useState(false);
     const [loading, setLoading] = useState(false);
     const [isLoading, setIsLoading] = useState(false)
+    const [cameraWidth, setCameraWidth] = useState(70)
+    const [cameraHeight, setCameraHeight] = useState(70)
 
     const videoRef = useRef(null);
     const canvasRef = useRef(null);
@@ -42,6 +45,34 @@ function FaceDetection() {
     useEffect(() => {
         setVideo(videoRef.current);
         setCanvas(canvasRef.current);
+
+        const handleResize = () => {
+            if (window.innerWidth < 345) {
+                setCameraWidth(20)
+                setCameraHeight(20)
+            } else {
+                if (window.innerWidth < 495) {
+                    setCameraWidth(35)
+                    setCameraHeight(35)
+                } else {
+                    if (window.innerWidth < 535) {
+                        setCameraWidth(45)
+                        setCameraHeight(45)
+                    }else{
+                        if (window.innerWidth < 675) {
+                            setCameraWidth(60)
+                            setCameraHeight(60)
+                        }
+                    }
+                }
+            }
+        }
+
+        window.addEventListener('resize', handleResize)
+
+        return () => {
+            window.removeEventListener('resize', handleResize)
+        }
     }, []);
 
     const start = async () => {
@@ -137,7 +168,7 @@ function FaceDetection() {
                     canvas.toBlob(blob => {
                         if (blob) {
                             resolve(blob);
-                            initFaceDetectionAnimation(URL.createObjectURL(blob))
+                            initFaceDetectionAnimation(URL.createObjectURL(blob), cameraWidth, cameraHeight)
                         } else {
                             reject(new Error('Échec de la création du blob'));
                         }
@@ -212,7 +243,7 @@ function FaceDetection() {
     };
 
     return (
-        <div style={{ position: "relative" }}>
+        <div className="FacialDetectorCalss" style={{ position: "relative" }}>
             <ToastContainer />
             <div style={{ position: "relative" }}>
                 {
@@ -221,23 +252,24 @@ function FaceDetection() {
                         style={{
                             position: "absolute",
                             top: 156,
-                            left: 0,
+                            left: "-10px",
                             width: "100%",
                             height: 340,
                             zIndex: 10,
                             color: "#fff",
                             display: "flex",
                             alignItems: "center",
-                            justifyContent: "center"
+                            justifyContent: "center",
+                            borderRadius: "14px",
                         }}
                     ></div>
                 }
                 <video
-                    style={{ position: "absolute", top: 100, left: 0, width: "100%", borderRadius: "14px" }}
+                    style={{ position: "absolute", top: 100, left: "15px", width: `${cameraWidth+25}%`, borderRadius: "14px" }}
                     ref={videoRef}
                 />
                 <canvas
-                    style={{ position: "absolute", top: 100, left: 0, width: "100%" }}
+                    style={{ position: "absolute", top: 100, left: "15px", width: `${cameraWidth+25}%` }}
                     ref={canvasRef}
                 />
 
@@ -262,7 +294,7 @@ function FaceDetection() {
                 )}
             </div>
             <br />
-            <button className='btn-submit' onClick={!camera ? start : handleCapture}>
+            <button className='btn-submit facial-btn' onClick={!camera ? start : handleCapture}>
                 {!camera ? "Commencer la reconnaissace" : "S'identifier"}
             </button>
         </div>
