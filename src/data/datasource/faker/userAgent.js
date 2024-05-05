@@ -6,6 +6,7 @@ export const UserAgent = [
         "nationalité": "Britannique",
         "grade": "Agent 00",
         "status": "Actif",
+        "level": 100,
         "password": "007bond"
     },
     {
@@ -15,6 +16,7 @@ export const UserAgent = [
         "nationalité": "Russe",
         "grade": "Agent 00",
         "status": "Actif",
+        "level": 100,
         "password": "002nikita"
     },
     {
@@ -24,6 +26,7 @@ export const UserAgent = [
         "nationalité": "Américaine",
         "grade": "Agent 00",
         "status": "Actif",
+        "level": 100,
         "password": "005bourne"
     },
     {
@@ -33,6 +36,7 @@ export const UserAgent = [
         "nationalité": "Russe",
         "grade": "Agent 00",
         "status": "Actif",
+        "level": 100,
         "password": "008natasha"
     }
 ]

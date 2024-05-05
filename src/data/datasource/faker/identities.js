@@ -1,8 +1,4 @@
-import Image from '../../../presentation/assets/image/supernova/team/stevano.webp'
-import Image2 from '../../../presentation/assets/image/supernova/team/Lucas.jpg'
-import Image3 from '../../../presentation/assets/image/supernova/team/francky.webp'  
-import Image3 from '../../../presentation/assets/image/supernova/team/Kevin.webp'  
-
+import Image from '../../../presentation/assets/image/supernova/team/Lucas.jpg'
 export const identites = [
       {
         "categorie": "passport",

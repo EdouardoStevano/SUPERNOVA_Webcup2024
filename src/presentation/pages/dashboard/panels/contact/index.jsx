@@ -67,7 +67,7 @@ const Contact = () => {
     };
 
   return (
-    <div className='dash-contact-container'>
+    <div className='dash-contact-container swipe'>
 
       {/* Modal d'ajout de contact */}
       {showModal && (
