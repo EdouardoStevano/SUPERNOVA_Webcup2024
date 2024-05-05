@@ -1,0 +1,252 @@
+.banner{
+    height: 100vh;
+    padding-top: 100px;
+    margin-bottom: 0px;
+    z-index: 10;
+    background-image: url('../../../../../../assets/image/branding/backbanner.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.banner .supernova-content{
+    margin-right: auto; 
+    margin-left: auto; 
+    height: 100%;
+    z-index: 2;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    color: var(--darkFontColor);
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.banner .supernova-content .title-content{
+    position: relative;
+    top: 50px;
+}
+
+.banner .supernova-content .title-content h1{
+    font-size: 55px;
+    font-weight: 500;
+    margin-top: -30px;
+    font-family: "Zen dots";
+    animation: 1s swipeFadeUp ease;
+}
+
+.banner .supernova-content .title-content p {
+    animation: 1s swipeFadeUp ease;
+    font-size: 14px;
+    border-radius: 30px;
+    width: 40%;
+}
+
+.banner .supernova-content .title-content .banner-round1{
+    background-color: var(--primaryColor);
+    border-radius: 40px;
+    background-size: cover;
+    padding: 0px 40px;
+    color: transparent;
+    transform: rotate(60deg);
+    animation: 1s zoom ease;
+}
+
+.banner .supernova-content .title-content .banner-round2{
+    // background-image: url('../../../../../../assets/image/background/BlueFormBackground.jpg');
+    border-radius: 40px;
+    background-size: cover;
+    padding: 0px 30px;
+    color: transparent;
+    transform: rotate(60deg);
+    animation: 1s zoom ease;
+}
+
+
+.banner .supernova-content .title-content .banner-round1 img, .banner .supernova-content .title-content .banner-round2 img{
+    position: relative;
+    top: 23px;
+}
+
+.banner .supernova-content .banner-description{
+    position: relative;
+    top: 0px;
+    font-size: 13px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    animation: 1s swipeFadeDown ease;
+    justify-content: space-between; 
+}
+
+.roundText{
+    width: 140px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 140px;
+    cursor: pointer;
+    z-index: 20;
+    background-image: var(--roundTExt);
+    background-size: cover;
+    animation: 30s turnAround linear infinite;
+}
+
+.roundText img{
+    animation: 30s turnAroundInverse linear infinite;
+    transition: 0.5s ease;
+    cursor: pointer;
+    transform: scale(1);
+
+}
+
+.roundText img:hover{
+    transform: scale(1.1);
+}
+
+
+.banner .supernova-content .banner-description p{
+    width: 30%;
+    opacity: 0.7;
+    text-align: left;
+    line-height: 20px;
+    font-weight: 500;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--darkFontColor);
+}
+
+.banner .supernova-content .banner-description .scroll-down{
+    
+    width: 40px;
+    height: 40px;
+    z-index: 10;
+    animation: swipeFadeUpInfinite 1s ease infinite;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        margin-top: 0px;
+        padding-top: 40px;
+    }
+
+    .banner .supernova-content {
+        margin-top: 0px;
+        padding: 50px;
+        width: 100%;
+    }
+
+    .roundText{
+        position: absolute;
+        margin-top: 40px;
+        right: -30px;
+        width: 90px;
+        height: 90px;
+    }
+
+    .banner .supernova-content .title-content h1{
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-weight: 500;  
+    }
+
+    .banner .supernova-content .title-content p{
+        width: 200px;
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    .banner .supernova-content .title-content .banner-title2 img{
+        position: relative;
+        top: 9px;
+        width: 30px;
+    }
+
+     .banner .supernova-content .title-content .banner-title3 img{
+        position: relative;
+        top: 9px;
+        width: 10px;
+    }
+
+    .banner .supernova-content .title-content .banner-round1 img{
+        position: relative;
+        top: 6px;
+        width: 70px;
+    }
+
+    .banner .supernova-content .title-content .banner-round2 img{
+        position: relative;
+        top: 11px;
+        width: 50px;
+    }
+    
+    .banner .supernova-content .title-content .banner-round2, .banner .supernova-content .title-content .banner-round1{
+
+        padding: 0px 10px;
+    }
+
+    .banner .supernova-content .banner-description {
+        margin-top: 30px;
+    }
+
+    .banner .supernova-content .banner-description p{
+        width: 80%;
+    }
+    
+}
+
+@media (max-width: 321px) {
+    .banner{
+        width: 100%;
+        margin-top: 90px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .banner .supernova-content .title-content h1{
+        font-size: 20px;
+        margin-top: 30px;
+        font-weight: 500; 
+        margin-bottom: 40px; 
+        /* line-height: 6px; */
+    }
+
+    .banner .supernova-content .title-content p{
+        width: 100px;
+        font-size: 12px;
+        margin-top: -25px;
+        margin-bottom: 40px;
+    }
+
+    .banner .supernova-content .title-content .banner-title2 img{
+        position: relative;
+        top: 9px;
+        width: 30px;
+    }
+
+     .banner .supernova-content .title-content .banner-title3 img{
+        position: relative;
+        top: 9px;
+        width: 10px;
+    }
+
+    .banner .supernova-content .title-content .banner-round1 img{
+        position: relative;
+        top: 7px;
+        width: 70px;
+    }
+
+    .banner .supernova-content .title-content .banner-round2 img{
+        position: relative;
+        top: 7px;
+        width: 40px;
+    }
+
+    .banner .supernova-content .title-content .banner-title3 img{
+        position: relative;
+        top: 7px;
+        width: 30px;
+    }
+}

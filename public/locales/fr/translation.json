@@ -11,6 +11,7 @@
     "faq": "FAQ",
     "blog": "Blog",
     "forum": "Forum",
+    "services": "services",
     "support": "Support",
     "feedback": "Retour",
     "download": "Téléchargement",
@@ -21,6 +22,15 @@
     "notifications": "Notifications",
     "logout": "Déconnexion",
     "dashboard": "Tableau de bord"
+  },
+
+  "banner": {
+    "lTitle": "Entre ombre et lumière : Explorez le monde secret des agents doubles.",
+    "bTitle1": "Plongez dans l'univers",
+    "bTitle2": "secret des agents",
+    "bTitle3": " doubles et sculptez votre propre",
+    "bTitle4": "destinée",
+    "sTitle": "Parcourez les dédales de la dualité pour forger votre propre éclat : Plongez au cœur du clandestin, explorez les méandres secrets en tant qu'agents doubles, et tracez les contours de votre propre destinée."
   },
 
   "footer": {

@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { t } from 'presentation/utils/translation/i18nHelper'
-
+import hoverSound from 'presentation/assets/audio/clicked.wav';
+import clickSound from 'presentation/assets/audio/clicked.wav';
 // Style importation
 import './style.scss';
 
@@ -22,6 +23,7 @@ function Navbar() {
   const [isFixed, setIsFixed] = useState(false);
   const [showSubMenu, setShowSubMenu] = useState(false);
   const [siriusModal, setSiriusModal] = useState(false);
+  const [hovered, setHovered] = useState(false);
 
 
   const toggleMenu = () => {
@@ -68,6 +70,20 @@ function Navbar() {
     }
   };
 
+  const playHoverSound = () => {
+      const hoverAudio = new Audio(hoverSound);
+      hoverAudio.play().catch(error => {
+          console.error('Erreur lors de la lecture du son de survol :', error);
+      });
+  };
+
+const playClickSound = () => {
+    const clickAudio = new Audio(clickSound);
+    clickAudio.play().catch(error => {
+        console.error('Erreur lors de la lecture du son de clic :', error);
+    });
+};
+
   return (
     <div className={isFixed ? 'navbar-container fixed-nav' : 'navbar-container'}>
       <nav className="navbar">
@@ -81,21 +97,59 @@ function Navbar() {
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="exit-menu w-6 h-6" onClick={toggleMenu}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
               </svg>
-              <div className='btn' onClick={toggleMenu}><a href="#banner" className='menu-btn' onClick={toggleMenu}>{t('navbar.home')}</a></div>
-              <div className='btn' onClick={toggleMenu}><a href="#about" className='menu-btn'>{t('navbar.about')}</a></div>
-              <div className='btn' onClick={toggleMenu}><a href="#solution" className='menu-btn' onClick={toggleMenu}>{t('navbar.solution')}</a></div>
-              <div className='btn' onClick={toggleMenu}><a href="#school" className='menu-btn'>{t('navbar.school')}</a></div>            
-              <div className='btn' onClick={toggleMenu}><a href="#contact" className='menu-btn'>{t('navbar.contact')}</a></div>
-              <div className="btn-connet-mobile">
-                <Link to={'/auth'} className="login-button">{t('navbar.signIn')}</Link>
+              <div onMouseEnter={() => {
+                    setHovered(true);
+                    playHoverSound();
+                    }} className='btn'
+                    onClick={toggleMenu}
+                    >
+                      <a href="#banner" className='menu-btn' onClick={toggleMenu}>{t('main.home')}</a></div>
+              <div onMouseEnter={() => {
+                    setHovered(true);
+                    playHoverSound();
+                    }} className='btn'
+                    onClick={toggleMenu}
+                  >
+              <a href="#about" className='menu-btn'>{t('main.about')}</a></div>
+              <div onMouseEnter={() => {
+                    setHovered(true);
+                    playHoverSound();
+                    }} className='btn'
+                    onClick={toggleMenu}
+              ><a href="#solution" className='menu-btn' onClick={toggleMenu}>{t('main.solution')}</a></div>
+              <div onMouseEnter={() => {
+                    setHovered(true);
+                    playHoverSound();
+                    }} className='btn'
+              onClick={toggleMenu}
+              ><a href="#school" className='menu-btn'>{t('main.services')}</a></div>            
+              <div onMouseEnter={() => {
+                    setHovered(true);
+                    playHoverSound();
+                    }} className='btn'
+              onClick={toggleMenu}
+              ><a href="#contact" className='menu-btn'>{t('main.contact')}</a></div>
+              <div onMouseEnter={() => {
+                    setHovered(true);
+                    playHoverSound();
+                    }} className="btn-connet-mobile"
+              >
+                <Link to={'/auth'} className="login-button">{t('main.signIn')}</Link>
               </div>
             </div>
           </div>
         </div>
 
         <div className="buttons">
-          <Link to={'/auth'} className="login-button">{t('navbar.signIn')}</Link>
+          <Link onMouseEnter={() => {
+                    setHovered(true);
+                    playHoverSound();
+                    }} to={'/auth'} className="login-button">{t('main.signIn')}</Link>
           <div className="mode-btn">
+            <a href="https://bff.ecoindex.fr/redirect/?url={url}" target="_blank">
+                <img src="https://bff.ecoindex.fr/badge/?theme=light&url=https://supernova.madagascar.webcup.hodi.host/" alt="Ecoindex Badge" />
+            </a>
+
             <SwitchMode  />
             {/* <LanguagesSelector /> */}
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="menu-button w-6 h-6" onClick={toggleMenu}>
