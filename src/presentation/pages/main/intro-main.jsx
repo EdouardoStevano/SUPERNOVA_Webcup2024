@@ -11,6 +11,8 @@ import ImageIntro from "presentation/assets/image/branding/Intro_Image.png";
 import ButtonSound from "../../components/ui/button/buttonSound/buttonSound";
 
 const IntroPage = () => {
+
+    
         return (
         <div className="intro-page-container">
             <div className="intro-page">
