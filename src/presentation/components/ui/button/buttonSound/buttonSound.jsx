@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import hoverSound from 'presentation/assets/audio/clicked.wav';
 import clickSound from 'presentation/assets/audio/clicked.wav';
+import { useNavigate } from 'react-router-dom';
 
 // Style import 
 import './buttonSound.scss';
@@ -12,7 +13,8 @@ import MyModal from '../../../component/modal/myModal';
 const FuturisticComponent = () => {
         const [hovered, setHovered] = useState(false);
         const [showSmallModal, setShowSmallModal] = useState(false);
-
+        const [isPlaying, setIsPlaying] = useState(false);
+        const nav = useNavigate();
         
         // For small modal
         const openSmallModal = () => {
@@ -39,16 +41,20 @@ const FuturisticComponent = () => {
         };
 
         const handleClick = () => {
+            const audioElement = document.getElementById('audio');
+            if (isPlaying) {
+            audioElement.pause();
+            } else {
+            audioElement.play();
+            }
+            setIsPlaying(!isPlaying);
             openSmallModal()
+            nav('/main');
             playClickSound();
         };
     
         return (
             <>
-            
-                <MyModal isOpen={showSmallModal} onClose={closeSmallModal}>
-                    <p>Contenu de la modal standard...</p>
-                </MyModal>
 
                 <div
                     onMouseEnter={() => {

@@ -46,6 +46,7 @@ function RoutesConfig() {
 	
 	checkmode();
 	const isDarkMode = localStorage.getItem('supermode') === 'true';
+	
 
 	return (
 		<QueryClientProvider client={queryClient}>
@@ -63,6 +64,8 @@ function RoutesConfig() {
 					pauseOnFocusLoss
 					draggable
 				/>
+				
+				<audio id="audio" src="/audio/ambiance.mp3" loop={true}/>
 
 				{/* Constant components */}
 				<ConnectionStatus />
