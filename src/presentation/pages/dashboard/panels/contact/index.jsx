@@ -6,6 +6,38 @@ import { toast } from 'react-toastify';
 const Contact = () => {
   // State pour gérer le filtre de catégorie
   const [categoryFilter, setCategoryFilter] = useState('');
+  const [showModal, setShowModal] = useState(false);
+  const [contacts, setContacts] = useState(contact); 
+  const [newContact, setNewContact] = useState({
+    nom: '',
+    phone: '',
+    type: 'Indique', // Valeur par défaut
+  });
+  
+  // Fonction de soumission du formulaire
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Vérifiez si tous les champs sont remplis
+    if (newContact.nom && newContact.phone && newContact.type) {
+      const newContactWithId = { ...newContact, id: contacts.length + 1 };
+      setContacts([...contacts, newContactWithId]);
+      setNewContact({ nom: '', phone: '', type: 'Indique' });
+      closeModal();
+    } else {
+      // Affichez un message d'erreur si tous les champs ne sont pas remplis
+      toast.info("Veuillez remplir tous les champs");
+    }
+  };
+
+  // Fonction pour ouvrir le modal
+  const openModal = () => {
+    setShowModal(true);
+  };
+
+  // Fonction pour fermer le modal
+  const closeModal = () => {
+    setShowModal(false);
+  };
 
   // Fonction de gestion du changement de filtre de catégorie
   const handleCategoryFilterChange = (category) => {
@@ -36,6 +68,38 @@ const Contact = () => {
 
   return (
     <div className='dash-contact-container'>
+
+      {/* Modal d'ajout de contact */}
+      {showModal && (
+        <div className="diana-modal">
+          <div className="diana-modal-content">
+            <span className="close" onClick={closeModal}>&times;</span>
+            <h2>Ajouter un nouveau contact</h2>
+            {/* Formulaire d'ajout de contact */}
+            <form onSubmit={handleSubmit}>
+              <div className="form-group">
+                <label htmlFor="nom">Nom:</label>
+                <input type="text" id="nom" value={newContact.nom} onChange={(e) => setNewContact({...newContact, nom: e.target.value})} required />
+              </div>
+              <div className="form-group">
+                <label htmlFor="phone">Téléphone:</label>
+                <input type="text" id="phone" value={newContact.phone} onChange={(e) => setNewContact({...newContact, phone: e.target.value})} required />
+              </div>
+              <div className="form-group">
+                <label htmlFor="type">Type:</label>
+                <select id="type" value={newContact.type} onChange={(e) => setNewContact({...newContact, type: e.target.value})}>
+                  <option value="Indique">Indique</option>
+                  <option value="Fournisseur d'armes">Fournisseur d'armes</option>
+                  <option value="Gouvernement">Gouvernement</option>
+                  <option value="Agence">Agence</option>
+                </select>
+              </div>
+              <button type="submit">Ajouter</button>
+            </form>
+          </div>
+        </div>
+      )}
+
       <div className="dash-contact-top">
         <div className="filter">
           <span>Catégorie:</span>
@@ -48,7 +112,7 @@ const Contact = () => {
           </select>
         </div>
 
-        <button className='add-contact'>Ajouter</button>
+        <button className='add-contact' onClick={openModal}>Ajouter</button>
       </div>
 
       <div className="dash-contact-list">

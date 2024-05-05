@@ -87,16 +87,17 @@
   }
   
   .add-contact {
-    padding: 8px 20px;
-    background-color: #007bff;
+    padding: 0px 20px;
+    background-color: var(--primaryColor);
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
+    transition: 0.3s;
   }
   
   .add-contact:hover {
-    background-color: #0056b3;
+    background-color: var(--secondaryColor);
   }
 }
 
